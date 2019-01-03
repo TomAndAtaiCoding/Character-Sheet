@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sheet));
             this.backstoryBox = new System.Windows.Forms.GroupBox();
             this.EditBackStory = new System.Windows.Forms.Button();
             this.ViewBackstoryButton = new System.Windows.Forms.Button();
             this.LoadButton = new System.Windows.Forms.Button();
             this.NewButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label50 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
@@ -76,11 +79,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox32 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.HPBox = new System.Windows.Forms.GroupBox();
             this.CurHPBox = new System.Windows.Forms.TextBox();
             this.CurHPLabel = new System.Windows.Forms.Label();
@@ -124,32 +127,34 @@
             this.textBox54 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.PlayerNameBox = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.ChestACLabel = new System.Windows.Forms.Label();
-            this.StomachACLabel = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.HeadACLabel = new System.Windows.Forms.Label();
             this.textBox53 = new System.Windows.Forms.TextBox();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.StomachACLabel = new System.Windows.Forms.Label();
+            this.ChestACLabel = new System.Windows.Forms.Label();
+            this.HeadACLabel = new System.Windows.Forms.Label();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
             this.textBox42 = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SaveButton = new System.Windows.Forms.Button();
             this.SaveAsButton = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.backstoryBox.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -171,7 +176,6 @@
             this.backstoryBox.TabIndex = 0;
             this.backstoryBox.TabStop = false;
             this.backstoryBox.Text = "Backstory";
-            this.backstoryBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // EditBackStory
             // 
@@ -204,7 +208,6 @@
             this.LoadButton.TabIndex = 1;
             this.LoadButton.Text = "Load Character Sheet";
             this.LoadButton.UseVisualStyleBackColor = false;
-            this.LoadButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // NewButton
             // 
@@ -215,21 +218,39 @@
             this.NewButton.TabIndex = 0;
             this.NewButton.Text = "New Character Sheet";
             this.NewButton.UseVisualStyleBackColor = false;
-            this.NewButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Goldenrod;
-            this.groupBox2.Controls.Add(this.tableLayoutPanel2);
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Location = new System.Drawing.Point(12, 411);
+            this.groupBox2.Controls.Add(this.tableLayoutPanel2);
+            this.groupBox2.Location = new System.Drawing.Point(138, 418);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(684, 362);
+            this.groupBox2.Size = new System.Drawing.Size(675, 338);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Stats";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Cornsilk;
+            this.button4.Location = new System.Drawing.Point(368, 300);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(307, 51);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Set";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Cornsilk;
+            this.button3.Location = new System.Drawing.Point(6, 300);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(356, 51);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Change";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel2
             // 
@@ -280,12 +301,14 @@
             this.tableLayoutPanel2.Controls.Add(this.label4, 0, 6);
             this.tableLayoutPanel2.Controls.Add(this.textBox32, 0, 7);
             this.tableLayoutPanel2.Controls.Add(this.label18, 0, 8);
-            this.tableLayoutPanel2.Controls.Add(this.textBox55, 0, 9);
-            this.tableLayoutPanel2.Controls.Add(this.textBox9, 3, 9);
             this.tableLayoutPanel2.Controls.Add(this.label51, 3, 8);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(9, 19);
+            this.tableLayoutPanel2.Controls.Add(this.label7, 4, 2);
+            this.tableLayoutPanel2.Controls.Add(this.textBox2, 4, 3);
+            this.tableLayoutPanel2.Controls.Add(this.textBox55, 1, 9);
+            this.tableLayoutPanel2.Controls.Add(this.textBox1, 0, 9);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 19);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 10;
+            this.tableLayoutPanel2.RowCount = 11;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
@@ -296,6 +319,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(669, 279);
             this.tableLayoutPanel2.TabIndex = 40;
             // 
@@ -328,9 +352,9 @@
             this.label47.ForeColor = System.Drawing.Color.Cornsilk;
             this.label47.Location = new System.Drawing.Point(437, 162);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(75, 26);
+            this.label47.Size = new System.Drawing.Size(92, 26);
             this.label47.TabIndex = 49;
-            this.label47.Text = "Spell Learn Chance";
+            this.label47.Text = "Spell Learning Chance";
             // 
             // label46
             // 
@@ -339,9 +363,9 @@
             this.label46.ForeColor = System.Drawing.Color.Cornsilk;
             this.label46.Location = new System.Drawing.Point(320, 162);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(100, 26);
+            this.label46.Size = new System.Drawing.Size(77, 13);
             this.label46.TabIndex = 49;
-            this.label46.Text = "Extra Spells per Day";
+            this.label46.Text = "Mana Bonus";
             // 
             // label45
             // 
@@ -350,10 +374,9 @@
             this.label45.ForeColor = System.Drawing.Color.Cornsilk;
             this.label45.Location = new System.Drawing.Point(190, 162);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(119, 26);
+            this.label45.Size = new System.Drawing.Size(99, 13);
             this.label45.TabIndex = 49;
-            this.label45.Text = "Number of Languages/Abilities";
-            this.label45.Click += new System.EventHandler(this.label45_Click);
+            this.label45.Text = "XP Cost Change";
             // 
             // textBox36
             // 
@@ -492,9 +515,9 @@
             this.label20.ForeColor = System.Drawing.Color.Cornsilk;
             this.label20.Location = new System.Drawing.Point(320, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(86, 13);
+            this.label20.Size = new System.Drawing.Size(92, 13);
             this.label20.TabIndex = 39;
-            this.label20.Text = "Extra Damage";
+            this.label20.Text = "Damage Bonus";
             // 
             // textBox27
             // 
@@ -513,9 +536,9 @@
             this.label19.ForeColor = System.Drawing.Color.Cornsilk;
             this.label19.Location = new System.Drawing.Point(190, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(70, 13);
+            this.label19.Size = new System.Drawing.Size(83, 13);
             this.label19.TabIndex = 38;
-            this.label19.Text = "Hit Chance";
+            this.label19.Text = "Attack Bonus";
             // 
             // label36
             // 
@@ -524,9 +547,9 @@
             this.label36.ForeColor = System.Drawing.Color.Cornsilk;
             this.label36.Location = new System.Drawing.Point(437, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(70, 13);
+            this.label36.Size = new System.Drawing.Size(85, 13);
             this.label36.TabIndex = 40;
-            this.label36.Text = "Door Force";
+            this.label36.Text = "Door Opening";
             // 
             // label37
             // 
@@ -535,15 +558,15 @@
             this.label37.ForeColor = System.Drawing.Color.Cornsilk;
             this.label37.Location = new System.Drawing.Point(554, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(84, 13);
+            this.label37.Size = new System.Drawing.Size(109, 26);
             this.label37.TabIndex = 41;
-            this.label37.Text = "Gate Bending";
+            this.label37.Text = "Bar Bending/Gate Lifting";
             // 
             // textBox10
             // 
             this.textBox10.BackColor = System.Drawing.Color.Cornsilk;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(320, 246);
+            this.textBox10.Location = new System.Drawing.Point(437, 246);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
             this.textBox10.Size = new System.Drawing.Size(64, 22);
@@ -632,9 +655,9 @@
             this.label43.ForeColor = System.Drawing.Color.Cornsilk;
             this.label43.Location = new System.Drawing.Point(554, 108);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(95, 13);
+            this.label43.Size = new System.Drawing.Size(82, 26);
             this.label43.TabIndex = 48;
-            this.label43.Text = "Poison Survival";
+            this.label43.Text = "Poison Save Bonus";
             // 
             // textBox33
             // 
@@ -657,7 +680,6 @@
             this.label1.Size = new System.Drawing.Size(65, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Strength";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox6
             // 
@@ -737,26 +759,6 @@
             this.label18.TabIndex = 12;
             this.label18.Text = "Perception";
             // 
-            // textBox55
-            // 
-            this.textBox55.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox55.Location = new System.Drawing.Point(3, 246);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.ReadOnly = true;
-            this.textBox55.Size = new System.Drawing.Size(64, 22);
-            this.textBox55.TabIndex = 53;
-            // 
-            // textBox9
-            // 
-            this.textBox9.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(437, 246);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(64, 22);
-            this.textBox9.TabIndex = 8;
-            // 
             // label51
             // 
             this.label51.AutoSize = true;
@@ -768,27 +770,46 @@
             this.label51.TabIndex = 49;
             this.label51.Text = "Ambush Detection";
             // 
-            // button4
+            // label7
             // 
-            this.button4.BackColor = System.Drawing.Color.Cornsilk;
-            this.button4.Location = new System.Drawing.Point(368, 300);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(307, 51);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Set";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label7.Location = new System.Drawing.Point(554, 54);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(87, 26);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "Sneaky Skills Bonus";
             // 
-            // button3
+            // textBox2
             // 
-            this.button3.BackColor = System.Drawing.Color.Cornsilk;
-            this.button3.Location = new System.Drawing.Point(6, 300);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(356, 51);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Change";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.textBox2.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(554, 84);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(64, 22);
+            this.textBox2.TabIndex = 58;
+            // 
+            // textBox55
+            // 
+            this.textBox55.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox55.Location = new System.Drawing.Point(320, 246);
+            this.textBox55.Name = "textBox55";
+            this.textBox55.ReadOnly = true;
+            this.textBox55.Size = new System.Drawing.Size(64, 22);
+            this.textBox55.TabIndex = 53;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(3, 246);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(64, 22);
+            this.textBox1.TabIndex = 54;
             // 
             // HPBox
             // 
@@ -800,7 +821,7 @@
             this.HPBox.Controls.Add(this.MaxHPBox);
             this.HPBox.Controls.Add(this.MaxHPLabel);
             this.HPBox.Controls.Add(this.SetHPButton);
-            this.HPBox.Location = new System.Drawing.Point(12, 218);
+            this.HPBox.Location = new System.Drawing.Point(12, 230);
             this.HPBox.Name = "HPBox";
             this.HPBox.Size = new System.Drawing.Size(185, 160);
             this.HPBox.TabIndex = 2;
@@ -860,7 +881,6 @@
             this.MaxHPBox.ReadOnly = true;
             this.MaxHPBox.Size = new System.Drawing.Size(51, 20);
             this.MaxHPBox.TabIndex = 4;
-            this.MaxHPBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // MaxHPLabel
             // 
@@ -883,7 +903,6 @@
             this.SetHPButton.TabIndex = 0;
             this.SetHPButton.Text = "Set HP";
             this.SetHPButton.UseVisualStyleBackColor = false;
-            this.SetHPButton.Click += new System.EventHandler(this.button5_Click);
             // 
             // InformationBox
             // 
@@ -935,7 +954,6 @@
             this.SetInfoButton.TabIndex = 19;
             this.SetInfoButton.Text = "Set Informaion";
             this.SetInfoButton.UseVisualStyleBackColor = false;
-            this.SetInfoButton.Click += new System.EventHandler(this.button7_Click);
             // 
             // DeityBox
             // 
@@ -1127,7 +1145,7 @@
             this.XPBox.Controls.Add(this.TotalXPBox);
             this.XPBox.Controls.Add(this.XPLabel);
             this.XPBox.Controls.Add(this.ChangeXPButton);
-            this.XPBox.Location = new System.Drawing.Point(203, 218);
+            this.XPBox.Location = new System.Drawing.Point(203, 230);
             this.XPBox.Name = "XPBox";
             this.XPBox.Size = new System.Drawing.Size(200, 160);
             this.XPBox.TabIndex = 4;
@@ -1245,37 +1263,39 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox54, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label35, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.PlayerNameBox, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox51, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox50, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox49, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox48, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox47, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox46, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox45, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox44, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox43, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox41, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.ChestACLabel, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.StomachACLabel, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label32, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label33, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label34, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox40, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.HeadACLabel, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.textBox54, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label35, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.PlayerNameBox, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.textBox53, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.textBox51, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label34, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.textBox49, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.textBox50, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label33, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label32, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.StomachACLabel, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.ChestACLabel, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.HeadACLabel, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.textBox47, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.textBox45, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBox43, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.textBox40, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.textBox48, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.textBox46, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.textBox44, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.textBox41, 2, 1);
             this.tableLayoutPanel1.Enabled = false;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 7;
+            this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(341, 176);
             this.tableLayoutPanel1.TabIndex = 13;
@@ -1283,7 +1303,7 @@
             // textBox54
             // 
             this.textBox54.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox54.Location = new System.Drawing.Point(173, 153);
+            this.textBox54.Location = new System.Drawing.Point(173, 156);
             this.textBox54.Name = "textBox54";
             this.textBox54.ReadOnly = true;
             this.textBox54.Size = new System.Drawing.Size(79, 20);
@@ -1294,7 +1314,7 @@
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label35.Location = new System.Drawing.Point(3, 150);
+            this.label35.Location = new System.Drawing.Point(3, 153);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(63, 16);
             this.label35.TabIndex = 18;
@@ -1304,195 +1324,195 @@
             // 
             this.PlayerNameBox.BackColor = System.Drawing.Color.Cornsilk;
             this.PlayerNameBox.Enabled = false;
-            this.PlayerNameBox.Location = new System.Drawing.Point(258, 128);
+            this.PlayerNameBox.Location = new System.Drawing.Point(258, 156);
             this.PlayerNameBox.Name = "PlayerNameBox";
             this.PlayerNameBox.ReadOnly = true;
             this.PlayerNameBox.Size = new System.Drawing.Size(79, 20);
             this.PlayerNameBox.TabIndex = 17;
             // 
+            // textBox53
+            // 
+            this.textBox53.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox53.Location = new System.Drawing.Point(258, 135);
+            this.textBox53.Name = "textBox53";
+            this.textBox53.ReadOnly = true;
+            this.textBox53.Size = new System.Drawing.Size(79, 20);
+            this.textBox53.TabIndex = 19;
+            // 
             // textBox51
             // 
             this.textBox51.BackColor = System.Drawing.Color.Cornsilk;
             this.textBox51.Enabled = false;
-            this.textBox51.Location = new System.Drawing.Point(173, 128);
+            this.textBox51.Location = new System.Drawing.Point(173, 135);
             this.textBox51.Name = "textBox51";
             this.textBox51.ReadOnly = true;
             this.textBox51.Size = new System.Drawing.Size(79, 20);
             this.textBox51.TabIndex = 16;
-            // 
-            // textBox50
-            // 
-            this.textBox50.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox50.Enabled = false;
-            this.textBox50.Location = new System.Drawing.Point(258, 103);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.ReadOnly = true;
-            this.textBox50.Size = new System.Drawing.Size(79, 20);
-            this.textBox50.TabIndex = 15;
-            // 
-            // textBox49
-            // 
-            this.textBox49.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox49.Enabled = false;
-            this.textBox49.Location = new System.Drawing.Point(173, 103);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.ReadOnly = true;
-            this.textBox49.Size = new System.Drawing.Size(79, 20);
-            this.textBox49.TabIndex = 14;
-            // 
-            // textBox48
-            // 
-            this.textBox48.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox48.Enabled = false;
-            this.textBox48.Location = new System.Drawing.Point(258, 78);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.ReadOnly = true;
-            this.textBox48.Size = new System.Drawing.Size(79, 20);
-            this.textBox48.TabIndex = 13;
-            // 
-            // textBox47
-            // 
-            this.textBox47.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox47.Enabled = false;
-            this.textBox47.Location = new System.Drawing.Point(173, 78);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.ReadOnly = true;
-            this.textBox47.Size = new System.Drawing.Size(79, 20);
-            this.textBox47.TabIndex = 12;
-            // 
-            // textBox46
-            // 
-            this.textBox46.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox46.Enabled = false;
-            this.textBox46.Location = new System.Drawing.Point(258, 53);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.Size = new System.Drawing.Size(79, 20);
-            this.textBox46.TabIndex = 11;
-            // 
-            // textBox45
-            // 
-            this.textBox45.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox45.Enabled = false;
-            this.textBox45.Location = new System.Drawing.Point(173, 53);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.Size = new System.Drawing.Size(79, 20);
-            this.textBox45.TabIndex = 10;
-            // 
-            // textBox44
-            // 
-            this.textBox44.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox44.Location = new System.Drawing.Point(258, 28);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(79, 20);
-            this.textBox44.TabIndex = 9;
-            // 
-            // textBox43
-            // 
-            this.textBox43.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox43.Enabled = false;
-            this.textBox43.Location = new System.Drawing.Point(173, 28);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.ReadOnly = true;
-            this.textBox43.Size = new System.Drawing.Size(79, 20);
-            this.textBox43.TabIndex = 8;
-            // 
-            // textBox41
-            // 
-            this.textBox41.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox41.Enabled = false;
-            this.textBox41.Location = new System.Drawing.Point(258, 3);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(79, 20);
-            this.textBox41.TabIndex = 7;
-            // 
-            // ChestACLabel
-            // 
-            this.ChestACLabel.AutoSize = true;
-            this.ChestACLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChestACLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.ChestACLabel.Location = new System.Drawing.Point(3, 25);
-            this.ChestACLabel.Name = "ChestACLabel";
-            this.ChestACLabel.Size = new System.Drawing.Size(47, 16);
-            this.ChestACLabel.TabIndex = 1;
-            this.ChestACLabel.Text = "Chest";
-            // 
-            // StomachACLabel
-            // 
-            this.StomachACLabel.AutoSize = true;
-            this.StomachACLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StomachACLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.StomachACLabel.Location = new System.Drawing.Point(3, 50);
-            this.StomachACLabel.Name = "StomachACLabel";
-            this.StomachACLabel.Size = new System.Drawing.Size(68, 16);
-            this.StomachACLabel.TabIndex = 2;
-            this.StomachACLabel.Text = "Stomach";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label32.Location = new System.Drawing.Point(3, 75);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(85, 16);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "Right Hand";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label33.Location = new System.Drawing.Point(3, 100);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(74, 16);
-            this.label33.TabIndex = 4;
-            this.label33.Text = "Left Hand";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label34.Location = new System.Drawing.Point(3, 125);
+            this.label34.Location = new System.Drawing.Point(3, 132);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(70, 16);
             this.label34.TabIndex = 5;
             this.label34.Text = "Right leg";
             // 
-            // textBox40
+            // textBox49
             // 
-            this.textBox40.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox40.Enabled = false;
-            this.textBox40.Location = new System.Drawing.Point(173, 3);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(79, 20);
-            this.textBox40.TabIndex = 6;
+            this.textBox49.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox49.Enabled = false;
+            this.textBox49.Location = new System.Drawing.Point(173, 113);
+            this.textBox49.Name = "textBox49";
+            this.textBox49.ReadOnly = true;
+            this.textBox49.Size = new System.Drawing.Size(79, 20);
+            this.textBox49.TabIndex = 14;
+            // 
+            // textBox50
+            // 
+            this.textBox50.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox50.Enabled = false;
+            this.textBox50.Location = new System.Drawing.Point(258, 113);
+            this.textBox50.Name = "textBox50";
+            this.textBox50.ReadOnly = true;
+            this.textBox50.Size = new System.Drawing.Size(79, 20);
+            this.textBox50.TabIndex = 15;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label33.Location = new System.Drawing.Point(3, 110);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(74, 16);
+            this.label33.TabIndex = 4;
+            this.label33.Text = "Left Hand";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label32.Location = new System.Drawing.Point(3, 88);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(85, 16);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "Right Hand";
+            // 
+            // StomachACLabel
+            // 
+            this.StomachACLabel.AutoSize = true;
+            this.StomachACLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StomachACLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.StomachACLabel.Location = new System.Drawing.Point(3, 66);
+            this.StomachACLabel.Name = "StomachACLabel";
+            this.StomachACLabel.Size = new System.Drawing.Size(68, 16);
+            this.StomachACLabel.TabIndex = 2;
+            this.StomachACLabel.Text = "Stomach";
+            // 
+            // ChestACLabel
+            // 
+            this.ChestACLabel.AutoSize = true;
+            this.ChestACLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChestACLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.ChestACLabel.Location = new System.Drawing.Point(3, 44);
+            this.ChestACLabel.Name = "ChestACLabel";
+            this.ChestACLabel.Size = new System.Drawing.Size(47, 16);
+            this.ChestACLabel.TabIndex = 1;
+            this.ChestACLabel.Text = "Chest";
             // 
             // HeadACLabel
             // 
             this.HeadACLabel.AutoSize = true;
             this.HeadACLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HeadACLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.HeadACLabel.Location = new System.Drawing.Point(3, 0);
+            this.HeadACLabel.Location = new System.Drawing.Point(3, 22);
             this.HeadACLabel.Name = "HeadACLabel";
             this.HeadACLabel.Size = new System.Drawing.Size(46, 16);
             this.HeadACLabel.TabIndex = 0;
             this.HeadACLabel.Text = "Head";
             // 
-            // textBox53
+            // textBox47
             // 
-            this.textBox53.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox53.Location = new System.Drawing.Point(258, 153);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.ReadOnly = true;
-            this.textBox53.Size = new System.Drawing.Size(79, 20);
-            this.textBox53.TabIndex = 19;
+            this.textBox47.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox47.Enabled = false;
+            this.textBox47.Location = new System.Drawing.Point(173, 91);
+            this.textBox47.Name = "textBox47";
+            this.textBox47.ReadOnly = true;
+            this.textBox47.Size = new System.Drawing.Size(79, 20);
+            this.textBox47.TabIndex = 12;
+            // 
+            // textBox45
+            // 
+            this.textBox45.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox45.Enabled = false;
+            this.textBox45.Location = new System.Drawing.Point(173, 69);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.ReadOnly = true;
+            this.textBox45.Size = new System.Drawing.Size(79, 20);
+            this.textBox45.TabIndex = 10;
+            // 
+            // textBox43
+            // 
+            this.textBox43.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox43.Enabled = false;
+            this.textBox43.Location = new System.Drawing.Point(173, 47);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.ReadOnly = true;
+            this.textBox43.Size = new System.Drawing.Size(79, 20);
+            this.textBox43.TabIndex = 8;
+            // 
+            // textBox40
+            // 
+            this.textBox40.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox40.Enabled = false;
+            this.textBox40.Location = new System.Drawing.Point(173, 25);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.ReadOnly = true;
+            this.textBox40.Size = new System.Drawing.Size(79, 20);
+            this.textBox40.TabIndex = 6;
+            // 
+            // textBox48
+            // 
+            this.textBox48.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox48.Enabled = false;
+            this.textBox48.Location = new System.Drawing.Point(258, 91);
+            this.textBox48.Name = "textBox48";
+            this.textBox48.ReadOnly = true;
+            this.textBox48.Size = new System.Drawing.Size(79, 20);
+            this.textBox48.TabIndex = 13;
+            // 
+            // textBox46
+            // 
+            this.textBox46.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox46.Enabled = false;
+            this.textBox46.Location = new System.Drawing.Point(258, 69);
+            this.textBox46.Name = "textBox46";
+            this.textBox46.ReadOnly = true;
+            this.textBox46.Size = new System.Drawing.Size(79, 20);
+            this.textBox46.TabIndex = 11;
+            // 
+            // textBox44
+            // 
+            this.textBox44.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox44.Location = new System.Drawing.Point(258, 47);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.ReadOnly = true;
+            this.textBox44.Size = new System.Drawing.Size(79, 20);
+            this.textBox44.TabIndex = 9;
+            // 
+            // textBox41
+            // 
+            this.textBox41.BackColor = System.Drawing.Color.Cornsilk;
+            this.textBox41.Enabled = false;
+            this.textBox41.Location = new System.Drawing.Point(258, 25);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.ReadOnly = true;
+            this.textBox41.Size = new System.Drawing.Size(79, 20);
+            this.textBox41.TabIndex = 7;
             // 
             // textBox42
             // 
@@ -1513,7 +1533,6 @@
             this.label29.Size = new System.Drawing.Size(9, 104);
             this.label29.TabIndex = 11;
             this.label29.Text = "|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|";
-            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // label28
             // 
@@ -1554,6 +1573,17 @@
             this.label26.TabIndex = 3;
             this.label26.Text = "Total AC";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label9.Location = new System.Drawing.Point(420, 233);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(46, 16);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Head";
+            // 
             // SaveButton
             // 
             this.SaveButton.BackColor = System.Drawing.Color.Cornsilk;
@@ -1574,6 +1604,17 @@
             this.SaveAsButton.Text = "Save As...";
             this.SaveAsButton.UseVisualStyleBackColor = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label10.Location = new System.Drawing.Point(598, 232);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(46, 16);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "Head";
+            // 
             // Sheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1581,6 +1622,8 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(999, 749);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.SaveAsButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.LoadButton);
@@ -1591,9 +1634,9 @@
             this.Controls.Add(this.InformationBox);
             this.Controls.Add(this.HPBox);
             this.Controls.Add(this.backstoryBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Sheet";
             this.Text = "Character Sheet";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.backstoryBox.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -1609,6 +1652,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1620,10 +1664,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox HPBox;
         private System.Windows.Forms.Label CurHPLabel;
         private System.Windows.Forms.TextBox HDBox;
@@ -1632,22 +1672,6 @@
         private System.Windows.Forms.Label MaxHPLabel;
         private System.Windows.Forms.Button SetHPButton;
         private System.Windows.Forms.TextBox CurHPBox;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.GroupBox InformationBox;
         private System.Windows.Forms.Button SetInfoButton;
         private System.Windows.Forms.TextBox DeityBox;
@@ -1705,12 +1729,37 @@
         private System.Windows.Forms.Label HeadACLabel;
         private System.Windows.Forms.TextBox textBox53;
         private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Button HeightBox;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SaveButton;
+        private System.Windows.Forms.Button SaveAsButton;
+        private System.Windows.Forms.Button EditBackStory;
+        private System.Windows.Forms.Button ViewBackstoryButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
@@ -1719,23 +1768,22 @@
         private System.Windows.Forms.Label ResurectionChanceLabel;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Button HeightBox;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label45;
         private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button SaveButton;
-        private System.Windows.Forms.Button SaveAsButton;
-        private System.Windows.Forms.Button EditBackStory;
-        private System.Windows.Forms.Button ViewBackstoryButton;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

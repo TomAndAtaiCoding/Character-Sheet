@@ -32,3 +32,14 @@ C:\Users\ataya\Google Drive\Coding Projects\Git Repositry\Character-Sheet\Charac
 C:\Users\ataya\Google Drive\Coding Projects\Git Repositry\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character_Sheet.Properties.Resources.resources
 C:\Users\ataya\Google Drive\Coding Projects\Git Repositry\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csproj.GenerateResource.cache
 C:\Users\ataya\Google Drive\Coding Projects\Git Repositry\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csproj.CoreCompileInputs.cache
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\bin\Debug\Character-Sheet.exe.config
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\bin\Debug\Character-Sheet.exe
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\bin\Debug\Character-Sheet.pdb
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csprojAssemblyReference.cache
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character_Sheet.Sheet.resources
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character_Sheet.HPTab.resources
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character_Sheet.Properties.Resources.resources
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csproj.GenerateResource.cache
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csproj.CoreCompileInputs.cache
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.exe
+C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.pdb
