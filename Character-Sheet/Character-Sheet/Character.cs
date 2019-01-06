@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Convert;
+using static System.Random
 
 namespace Character_Sheet
 {
@@ -309,6 +310,7 @@ namespace Character_Sheet
                 SneakySkillsDexBonus = 20;
         }
 
+
         //Endurance
         private int Endurance;
         public int HPInitbonus;
@@ -316,8 +318,87 @@ namespace Character_Sheet
         public int ResurretionSurvival;
         public int EndurancePoisonSaveBonus;
 
-        private void CalculateHPInitBonus() { }
-        private void CalculateSystemShock() { }
+        private void CalculateHPInitBonus()
+        {
+            int l_Val = Endurance;
+            if (l_Val == 3)
+                HPInitbonus = -5;
+            else if (l_Val == 4)
+                HPInitbonus = -4;
+            else if (l_Val == 5)
+                HPInitbonus = -2;
+            else if (l_Val == 6)
+                HPInitbonus = -1;
+            else if (l_Val > 6 && l_Val < 12)
+                HPInitbonus = 0;
+            else if (l_Val == 12)
+                HPInitbonus = 2;
+            else if (l_Val == 13)
+                HPInitbonus = 3;
+            else if (l_Val == 14)
+                HPInitbonus = 5;
+            else if (l_Val == 15)
+                HPInitbonus = 7;
+            else if(Potentials["Fighting"])
+            {
+                if (l_Val == 16)
+                    HPInitbonus = 9;
+                else if (l_Val == 17)
+                    HPInitbonus = 12;
+                else if (l_Val == 18)
+                    HPInitbonus = 15;
+                else if (l_Val = 19)
+                    HPInitbonus = 17;
+            }
+            else
+            {
+
+                if (l_Val == 16)
+                    HPInitbonus = 8;
+                else if (l_Val == 17)
+                    HPInitbonus = 10;
+                else if (l_Val == 18)
+                    HPInitbonus = 11;
+                else if (l_Val = 19)
+                    HPInitbonus = 12;
+            }
+
+        }
+        private void CalculateSystemShock()
+        {
+            int l_Val = Endurance;
+            if (l_Val == 1)
+                SystemShock = 30;
+            if (l_Val == 2)
+                SystemShock = 35;
+            if (l_Val == 3)
+                SystemShock = 40;
+            if (l_Val == 4)
+                SystemShock = 45;
+            if (l_Val == 5)
+                SystemShock = 50;
+            if (l_Val == 6)
+                SystemShock = 55;
+            if (l_Val == 7)
+                SystemShock = 60;
+            if (l_Val == 8)
+                SystemShock = 65;
+            if (l_Val == 9)
+                SystemShock = 70;
+            if (l_Val == 10)
+                SystemShock = 75;
+            if (l_Val == 11)
+                SystemShock = 80;
+            if (l_Val == 1)
+                SystemShock = 85;
+            if (l_Val == 1)
+                SystemShock = 90;
+            if (l_Val == 1)
+                SystemShock = 95;
+            if (l_Val == 1)
+                SystemShock = 100;
+
+        }
         private void CalculaaResurrectionSurvival() { }
         private void CalculateEnduranceSaveBonus() { }
 
