@@ -19,7 +19,6 @@ namespace Character_Sheet
 
         bool RngRoll = true;
         bool IsValid(string str)
-
         {
             foreach (char c in str)
             {

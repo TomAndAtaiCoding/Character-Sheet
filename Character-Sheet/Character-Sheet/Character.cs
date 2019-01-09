@@ -5,10 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Convert;
-using static System.Random
+using static System.Random;
 
 namespace Character_Sheet
 {
+
+    /// <summary>
+    /// 
+    /// </summary>
     public class Character
     {
         //Basic Details:
@@ -40,7 +44,7 @@ namespace Character_Sheet
         private bool EvenDisributAC;
 
         //Strength:
-        private int Strength = new IntVariable();
+        private int Strength;
         private bool ExceptionalStrength = false;
         public int EighteenStrengthPercentile; //For characters with Exceptional Strength.
         private int StrengthHitBonus;
@@ -51,7 +55,7 @@ namespace Character_Sheet
 
         private void CalaculateStrengthHitBonus()
         {
-            int l_Val = Strength.Value;
+            int l_Val = Strength;
             if (l_Val == 1)
                 StrengthHitBonus = -25;
             else if (l_Val == 2 || l_Val == 3)
@@ -78,7 +82,7 @@ namespace Character_Sheet
         }
         private void CalculateStrengthDamageBonus()
         {
-            int l_Val = Strength.Value;
+            int l_Val = Strength;
             if (l_Val == 1)
                 StrengthDamageBonus = -4;
             else if (l_Val == 2)
@@ -106,7 +110,7 @@ namespace Character_Sheet
         }
         private void CalculateOpenDoors()
         {
-            int l_Val = Strength.Value;
+            int l_Val = Strength;
             if (l_Val == 1 || l_Val == 2)
                 DoorOpeningChance = 1;
             else if (l_Val == 3)
@@ -153,7 +157,7 @@ namespace Character_Sheet
         private void CalaculateBarBending()
         {
 
-            int l_Val = Strength.Value;
+            int l_Val = Strength;
             if (l_Val < 8)
                 BarBend = 0;
             else if (l_Val == 8 || l_Val == 9)
@@ -316,8 +320,6 @@ namespace Character_Sheet
         public int HPInitbonus;
         public int SystemShock;
         public int ResurretionSurvival;
-        public int EndurancePoisonSaveBonus;
-
         private void CalculateHPInitBonus()
         {
             int l_Val = Endurance;
@@ -347,7 +349,7 @@ namespace Character_Sheet
                     HPInitbonus = 12;
                 else if (l_Val == 18)
                     HPInitbonus = 15;
-                else if (l_Val = 19)
+                else if (l_Val == 19)
                     HPInitbonus = 17;
             }
             else
@@ -359,7 +361,7 @@ namespace Character_Sheet
                     HPInitbonus = 10;
                 else if (l_Val == 18)
                     HPInitbonus = 11;
-                else if (l_Val = 19)
+                else if (l_Val == 19)
                     HPInitbonus = 12;
             }
 
@@ -368,41 +370,148 @@ namespace Character_Sheet
         {
             int l_Val = Endurance;
             if (l_Val == 1)
+                SystemShock = 25;
+            else if (l_Val == 2)
                 SystemShock = 30;
-            if (l_Val == 2)
+            else if (l_Val == 3)
                 SystemShock = 35;
-            if (l_Val == 3)
+            else if (l_Val == 4)
                 SystemShock = 40;
-            if (l_Val == 4)
+            else if (l_Val == 5)
                 SystemShock = 45;
-            if (l_Val == 5)
+            else if (l_Val == 6)
                 SystemShock = 50;
-            if (l_Val == 6)
+            else if (l_Val == 7)
                 SystemShock = 55;
-            if (l_Val == 7)
+            else if (l_Val == 8)
                 SystemShock = 60;
-            if (l_Val == 8)
+            else if (l_Val == 9)
                 SystemShock = 65;
-            if (l_Val == 9)
+            else if (l_Val == 10)
                 SystemShock = 70;
-            if (l_Val == 10)
+            else if (l_Val == 11)
                 SystemShock = 75;
-            if (l_Val == 11)
+            else if (l_Val == 12)
                 SystemShock = 80;
-            if (l_Val == 1)
+            else if (l_Val == 13)
                 SystemShock = 85;
-            if (l_Val == 1)
+            else if (l_Val == 14)
+                SystemShock = 88;
+            else if (l_Val == 15)
                 SystemShock = 90;
-            if (l_Val == 1)
+            else if (l_Val == 16)
                 SystemShock = 95;
-            if (l_Val == 1)
-                SystemShock = 100;
-
+            else if (l_Val == 17)
+                SystemShock = 97;
+            else if (l_Val == 18)
+                SystemShock = 99;
+            else if (l_Val == 19)
+                SystemShock = 99;
         }
-        private void CalculaaResurrectionSurvival() { }
-        private void CalculateEnduranceSaveBonus() { }
+        private void CalculateResurrectionSurvival()
+        {
+            int l_Val = Endurance;
+            if (l_Val == 1)
+                ResurretionSurvival = 30;
+            else if (l_Val == 2)
+                ResurretionSurvival = 35;
+            else if (l_Val == 3)
+                ResurretionSurvival = 40;
+            else if (l_Val == 4)
+                ResurretionSurvival = 45;
+            else if (l_Val == 5)
+                ResurretionSurvival = 50;
+            else if (l_Val == 6)
+                ResurretionSurvival = 55;
+            else if (l_Val == 7)
+                ResurretionSurvival = 60;
+            else if (l_Val == 8)
+                ResurretionSurvival = 65;
+            else if (l_Val == 9)
+                ResurretionSurvival = 70;
+            else if (l_Val == 10)
+                ResurretionSurvival = 75;
+            else if (l_Val == 11)
+                ResurretionSurvival = 80;
+            else if (l_Val == 12)
+                ResurretionSurvival = 85;
+            else if (l_Val == 13)
+                ResurretionSurvival = 90;
+            else if (l_Val == 14)
+                ResurretionSurvival = 92;
+            else if (l_Val == 15)
+                ResurretionSurvival = 94;
+            else if (l_Val == 16)
+                ResurretionSurvival = 96;
+            else if (l_Val == 17)
+                ResurretionSurvival = 98;
+            else if (l_Val == 18 || l_Val == 19)
+                ResurretionSurvival = 100;
+        }
 
+
+        //Intelligence
         private int Intelligence;
+        public int XpInitBonus;
+        public int XpCostMultiplayer;
+        public int ManaBonus;
+        public int LearnSpellChance;
+        private void CalculateXpInitBonus()
+        {
+            int l_Val = Intelligence;
+            if (l_Val == 1)
+                XpInitBonus = 0;
+            else if (l_Val>=2 && l_Val<=8)
+                XpInitBonus = 300;
+            else if (l_Val >= 9 && l_Val<=11)
+                XpInitBonus = 600;
+            else if (l_Val == 12 || l_Val==13)
+                XpInitBonus = 900;
+            else if (l_Val == 14 || l_Val == 15)
+                XpInitBonus = 1200;
+            else if (l_Val == 16)
+                XpInitBonus = 1500;
+            else if (l_Val == 17)
+                XpInitBonus = 1800;
+            else if (l_Val == 18)
+                XpInitBonus = 2100;
+            else if (l_Val == 19)
+                XpInitBonus = 2400;
+        }
+        private void CalculateXpCostChange()
+        {
+            int l_Val = Intelligence;
+            if (l_Val == 1)
+                XpCostMultiplayer = 20;
+            else if (l_Val == 2)
+                XpCostMultiplayer = 15;
+            else if (l_Val == 3)
+                XpCostMultiplayer = 10;
+            else if (l_Val == 4)
+                XpCostMultiplayer = 5;
+            else if (l_Val >= 5 && l_Val < 15)
+                XpCostMultiplayer = 0;
+            else if (l_Val == 15)
+                XpCostMultiplayer = -2;
+            else if (l_Val == 16)
+                XpCostMultiplayer = -5;
+            else if (l_Val == 17)
+                XpCostMultiplayer = -10;
+            else if (l_Val == 18)
+                XpCostMultiplayer = -15;
+            else if (l_Val == 19)
+                XpCostMultiplayer = -20;
+        }
+        private void CalculateManaBonus()
+        {
+            int l_Val = Intelligence;
+            if (l_Val < 15)
+                ManaBonus = 0;
+            else if (true) { }
+        }
+        private void CalculateLearnSpellChance() { }
+
+
         private int Perception;
         private Dictionary<string, bool> Potentials = new Dictionary<string, bool>()
         {
@@ -412,11 +521,11 @@ namespace Character_Sheet
         };
 
 
-        private bool AttributeValid(int NewAttributeValue, out int Attribute)
+        private bool AttributeValid(int NewAttributeValue, ref int Attribute)
         {
             if (NewAttributeValue > 3 && NewAttributeValue < 18)
             {
-                Attribute.Value = NewAttributeValue;
+                Attribute = NewAttributeValue;
                 return true;
             }
             else
@@ -429,9 +538,9 @@ namespace Character_Sheet
 
         public void SetStength(int str)
         {
-            if (AttributeValid(str, out Strength) == true)
+            if (AttributeValid(str, ref Strength) == true)
             {
-                if(Strength.Value>=18 && Potentials["Fighting"] && !ExceptionalStrength)
+                if(Strength>=18 && Potentials["Fighting"] && !ExceptionalStrength)
                 {
                     ExceptionalStrength = true;
                     Globals.CurrentCharacter = this;
@@ -451,7 +560,7 @@ namespace Character_Sheet
         }
         public void SetDexterity(int dex)
         {
-            if(AttributeValid(dex, out Dexterity))
+            if(AttributeValid(dex, ref Dexterity))
             {
                 CalculateArmourDexBonus();
                 CalculateDexInitiative();
@@ -465,7 +574,10 @@ namespace Character_Sheet
         }
         public void  SetEndurace(int end)
         {
-            AttributeValid(end, out Endurance);
+            AttributeValid(end, ref Endurance);
+            CalculateHPInitBonus();
+            CalculateResurrectionSurvival();
+            CalculateSystemShock();
         }
         public int GetEndurance()
         {
@@ -473,7 +585,7 @@ namespace Character_Sheet
         }
         public void SetIntelligence(int Int)
         {
-            AttributeValid(Int, out Intelligence);
+            AttributeValid(Int, ref Intelligence);
         }
         public int GetIntelligence()
         {
@@ -481,7 +593,7 @@ namespace Character_Sheet
         }
         public void SetPerception(int per)
         {
-            AttributeValid(per, out Perception);
+            AttributeValid(per, ref Perception);
         }
         public int GetPerception()
         {

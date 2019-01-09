@@ -34,55 +34,51 @@
             this.ViewBackstoryButton = new System.Windows.Forms.Button();
             this.LoadButton = new System.Windows.Forms.Button();
             this.NewButton = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.AttributeBox = new System.Windows.Forms.GroupBox();
+            this.SetAttributeButton = new System.Windows.Forms.Button();
+            this.ResetAttributeButton = new System.Windows.Forms.Button();
+            this.AttributeTable = new System.Windows.Forms.TableLayoutPanel();
+            this.TrapDetectionLabel = new System.Windows.Forms.Label();
+            this.SnipingBonusLabel = new System.Windows.Forms.Label();
+            this.LearnSpellLabel = new System.Windows.Forms.Label();
+            this.ManaBousLabel = new System.Windows.Forms.Label();
+            this.XpCostLabel = new System.Windows.Forms.Label();
+            this.LearnSpellBox = new System.Windows.Forms.TextBox();
+            this.ManaBonusBox = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
+            this.BarBendBox = new System.Windows.Forms.TextBox();
+            this.PersonalInitativeBox = new System.Windows.Forms.TextBox();
+            this.ResChanceBox = new System.Windows.Forms.TextBox();
+            this.ProjectileBonusBox = new System.Windows.Forms.TextBox();
+            this.SystemShockBox = new System.Windows.Forms.TextBox();
+            this.AcDexBonusBox = new System.Windows.Forms.TextBox();
+            this.StrengthAttackBonusBox = new System.Windows.Forms.TextBox();
+            this.OpenDoorBox = new System.Windows.Forms.TextBox();
+            this.DamageBonusLabel = new System.Windows.Forms.Label();
+            this.StrnegthDamageBox = new System.Windows.Forms.TextBox();
+            this.AttackBonusLabel = new System.Windows.Forms.Label();
+            this.OpenDoorLabel = new System.Windows.Forms.Label();
+            this.BarBendLabel = new System.Windows.Forms.Label();
+            this.AmbushDetectionBox = new System.Windows.Forms.TextBox();
+            this.PersonalInitativeLabel = new System.Windows.Forms.Label();
+            this.ProjectileBonusLabel = new System.Windows.Forms.Label();
+            this.AcBonusLabel = new System.Windows.Forms.Label();
+            this.SystemShockLabel = new System.Windows.Forms.Label();
             this.ResurectionChanceLabel = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
+            this.SnipingBonusBox = new System.Windows.Forms.TextBox();
+            this.StrenngthBox = new System.Windows.Forms.TextBox();
+            this.StrengthLabel = new System.Windows.Forms.Label();
+            this.DexterityBox = new System.Windows.Forms.TextBox();
+            this.DexterityLabel = new System.Windows.Forms.Label();
+            this.EndurnceBox = new System.Windows.Forms.TextBox();
+            this.EnduranceLabel = new System.Windows.Forms.Label();
+            this.IntelligenceLabel = new System.Windows.Forms.Label();
+            this.IntelligenceBox = new System.Windows.Forms.TextBox();
+            this.PerceptionLabel = new System.Windows.Forms.Label();
+            this.AmbushDetectionLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.AmbushdetectionnBox = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.HPBox = new System.Windows.Forms.GroupBox();
             this.CurHPBox = new System.Windows.Forms.TextBox();
@@ -112,7 +108,7 @@
             this.playerNameLabel = new System.Windows.Forms.Label();
             this.AgeBox = new System.Windows.Forms.TextBox();
             this.CharacterNameBox = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.PlayerNameBox = new System.Windows.Forms.TextBox();
             this.XPBox = new System.Windows.Forms.GroupBox();
             this.XPChangeBox = new System.Windows.Forms.TextBox();
             this.XPChangeLabel = new System.Windows.Forms.Label();
@@ -122,47 +118,50 @@
             this.XPLabel = new System.Windows.Forms.Label();
             this.ChangeXPButton = new System.Windows.Forms.Button();
             this.ACBox = new System.Windows.Forms.GroupBox();
-            this.HeightBox = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.ResetAcButton = new System.Windows.Forms.Button();
+            this.SetAcbutton = new System.Windows.Forms.Button();
+            this.AcTable = new System.Windows.Forms.TableLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.BodyPartLabel = new System.Windows.Forms.Label();
+            this.LLegArmourBox = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.PlayerNameBox = new System.Windows.Forms.TextBox();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.LLegAimedArmour = new System.Windows.Forms.TextBox();
+            this.RLegAimedArmour = new System.Windows.Forms.TextBox();
+            this.RLegArmourBox = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.LHandArmourBox = new System.Windows.Forms.TextBox();
+            this.LHandAimedArmour = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.StomachACLabel = new System.Windows.Forms.Label();
             this.ChestACLabel = new System.Windows.Forms.Label();
             this.HeadACLabel = new System.Windows.Forms.Label();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.RHandArmourBox = new System.Windows.Forms.TextBox();
+            this.StomachArmourBox = new System.Windows.Forms.TextBox();
+            this.ChestArmourBox = new System.Windows.Forms.TextBox();
+            this.HeadArmourBox = new System.Windows.Forms.TextBox();
+            this.RHandAimedArmour = new System.Windows.Forms.TextBox();
+            this.StomachAimedArmour = new System.Windows.Forms.TextBox();
+            this.ChestAimedArmour = new System.Windows.Forms.TextBox();
+            this.HeadAimedArmour = new System.Windows.Forms.TextBox();
+            this.ABox = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.TotalAcLabel = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SaveButton = new System.Windows.Forms.Button();
             this.SaveAsButton = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
             this.backstoryBox.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
+            this.AttributeBox.SuspendLayout();
+            this.AttributeTable.SuspendLayout();
             this.HPBox.SuspendLayout();
             this.InformationBox.SuspendLayout();
             this.XPBox.SuspendLayout();
             this.ACBox.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.AcTable.SuspendLayout();
             this.SuspendLayout();
             // 
             // backstoryBox
@@ -185,7 +184,7 @@
             this.EditBackStory.Name = "EditBackStory";
             this.EditBackStory.Size = new System.Drawing.Size(187, 66);
             this.EditBackStory.TabIndex = 22;
-            this.EditBackStory.Text = "Reset";
+            this.EditBackStory.Text = "Set/Edit Backstory";
             this.EditBackStory.UseVisualStyleBackColor = false;
             // 
             // ViewBackstoryButton
@@ -219,184 +218,180 @@
             this.NewButton.Text = "New Character Sheet";
             this.NewButton.UseVisualStyleBackColor = false;
             // 
-            // groupBox2
+            // AttributeBox
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Goldenrod;
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.tableLayoutPanel2);
-            this.groupBox2.Location = new System.Drawing.Point(138, 418);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(675, 338);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Stats";
+            this.AttributeBox.BackColor = System.Drawing.Color.Goldenrod;
+            this.AttributeBox.Controls.Add(this.SetAttributeButton);
+            this.AttributeBox.Controls.Add(this.ResetAttributeButton);
+            this.AttributeBox.Controls.Add(this.AttributeTable);
+            this.AttributeBox.Location = new System.Drawing.Point(138, 418);
+            this.AttributeBox.Name = "AttributeBox";
+            this.AttributeBox.Size = new System.Drawing.Size(675, 338);
+            this.AttributeBox.TabIndex = 1;
+            this.AttributeBox.TabStop = false;
+            this.AttributeBox.Text = "Attributes";
             // 
-            // button4
+            // SetAttributeButton
             // 
-            this.button4.BackColor = System.Drawing.Color.Cornsilk;
-            this.button4.Location = new System.Drawing.Point(368, 300);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(307, 51);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Set";
-            this.button4.UseVisualStyleBackColor = false;
+            this.SetAttributeButton.BackColor = System.Drawing.Color.Cornsilk;
+            this.SetAttributeButton.Location = new System.Drawing.Point(368, 300);
+            this.SetAttributeButton.Name = "SetAttributeButton";
+            this.SetAttributeButton.Size = new System.Drawing.Size(307, 51);
+            this.SetAttributeButton.TabIndex = 11;
+            this.SetAttributeButton.Text = "Set";
+            this.SetAttributeButton.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // ResetAttributeButton
             // 
-            this.button3.BackColor = System.Drawing.Color.Cornsilk;
-            this.button3.Location = new System.Drawing.Point(6, 300);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(356, 51);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Change";
-            this.button3.UseVisualStyleBackColor = false;
+            this.ResetAttributeButton.BackColor = System.Drawing.Color.Cornsilk;
+            this.ResetAttributeButton.Location = new System.Drawing.Point(6, 300);
+            this.ResetAttributeButton.Name = "ResetAttributeButton";
+            this.ResetAttributeButton.Size = new System.Drawing.Size(356, 51);
+            this.ResetAttributeButton.TabIndex = 10;
+            this.ResetAttributeButton.Text = "Reset";
+            this.ResetAttributeButton.UseVisualStyleBackColor = false;
             // 
-            // tableLayoutPanel2
+            // AttributeTable
             // 
-            this.tableLayoutPanel2.ColumnCount = 5;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.5F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.5F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.5F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.5F));
-            this.tableLayoutPanel2.Controls.Add(this.label50, 2, 8);
-            this.tableLayoutPanel2.Controls.Add(this.label49, 1, 8);
-            this.tableLayoutPanel2.Controls.Add(this.label47, 3, 6);
-            this.tableLayoutPanel2.Controls.Add(this.label46, 2, 6);
-            this.tableLayoutPanel2.Controls.Add(this.label45, 1, 6);
-            this.tableLayoutPanel2.Controls.Add(this.textBox36, 3, 7);
-            this.tableLayoutPanel2.Controls.Add(this.textBox25, 2, 7);
-            this.tableLayoutPanel2.Controls.Add(this.textBox26, 1, 7);
-            this.tableLayoutPanel2.Controls.Add(this.textBox18, 4, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox28, 4, 5);
-            this.tableLayoutPanel2.Controls.Add(this.textBox24, 1, 3);
-            this.tableLayoutPanel2.Controls.Add(this.textBox29, 3, 5);
-            this.tableLayoutPanel2.Controls.Add(this.textBox23, 2, 3);
-            this.tableLayoutPanel2.Controls.Add(this.textBox30, 2, 5);
-            this.tableLayoutPanel2.Controls.Add(this.textBox22, 3, 3);
-            this.tableLayoutPanel2.Controls.Add(this.textBox19, 1, 5);
-            this.tableLayoutPanel2.Controls.Add(this.textBox20, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox34, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label20, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox27, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label19, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label36, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label37, 4, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox10, 1, 9);
-            this.tableLayoutPanel2.Controls.Add(this.label5, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label38, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label39, 3, 2);
-            this.tableLayoutPanel2.Controls.Add(this.label41, 1, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label42, 2, 4);
-            this.tableLayoutPanel2.Controls.Add(this.ResurectionChanceLabel, 3, 4);
-            this.tableLayoutPanel2.Controls.Add(this.textBox8, 1, 9);
-            this.tableLayoutPanel2.Controls.Add(this.label43, 4, 4);
-            this.tableLayoutPanel2.Controls.Add(this.textBox33, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox6, 0, 3);
-            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox31, 0, 5);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 4);
-            this.tableLayoutPanel2.Controls.Add(this.label4, 0, 6);
-            this.tableLayoutPanel2.Controls.Add(this.textBox32, 0, 7);
-            this.tableLayoutPanel2.Controls.Add(this.label18, 0, 8);
-            this.tableLayoutPanel2.Controls.Add(this.label51, 3, 8);
-            this.tableLayoutPanel2.Controls.Add(this.label7, 4, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox2, 4, 3);
-            this.tableLayoutPanel2.Controls.Add(this.textBox55, 1, 9);
-            this.tableLayoutPanel2.Controls.Add(this.textBox1, 0, 9);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 19);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 11;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(669, 279);
-            this.tableLayoutPanel2.TabIndex = 40;
+            this.AttributeTable.ColumnCount = 5;
+            this.AttributeTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28F));
+            this.AttributeTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.5F));
+            this.AttributeTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.5F));
+            this.AttributeTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.5F));
+            this.AttributeTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.5F));
+            this.AttributeTable.Controls.Add(this.TrapDetectionLabel, 2, 8);
+            this.AttributeTable.Controls.Add(this.SnipingBonusLabel, 1, 8);
+            this.AttributeTable.Controls.Add(this.LearnSpellLabel, 3, 6);
+            this.AttributeTable.Controls.Add(this.ManaBousLabel, 2, 6);
+            this.AttributeTable.Controls.Add(this.XpCostLabel, 1, 6);
+            this.AttributeTable.Controls.Add(this.LearnSpellBox, 3, 7);
+            this.AttributeTable.Controls.Add(this.ManaBonusBox, 2, 7);
+            this.AttributeTable.Controls.Add(this.textBox26, 1, 7);
+            this.AttributeTable.Controls.Add(this.BarBendBox, 4, 1);
+            this.AttributeTable.Controls.Add(this.PersonalInitativeBox, 1, 3);
+            this.AttributeTable.Controls.Add(this.ProjectileBonusBox, 2, 3);
+            this.AttributeTable.Controls.Add(this.AcDexBonusBox, 3, 3);
+            this.AttributeTable.Controls.Add(this.StrengthAttackBonusBox, 1, 1);
+            this.AttributeTable.Controls.Add(this.OpenDoorBox, 3, 1);
+            this.AttributeTable.Controls.Add(this.DamageBonusLabel, 2, 0);
+            this.AttributeTable.Controls.Add(this.StrnegthDamageBox, 2, 1);
+            this.AttributeTable.Controls.Add(this.AttackBonusLabel, 1, 0);
+            this.AttributeTable.Controls.Add(this.OpenDoorLabel, 3, 0);
+            this.AttributeTable.Controls.Add(this.BarBendLabel, 4, 0);
+            this.AttributeTable.Controls.Add(this.AmbushDetectionBox, 1, 9);
+            this.AttributeTable.Controls.Add(this.PersonalInitativeLabel, 1, 2);
+            this.AttributeTable.Controls.Add(this.ProjectileBonusLabel, 2, 2);
+            this.AttributeTable.Controls.Add(this.AcBonusLabel, 3, 2);
+            this.AttributeTable.Controls.Add(this.SnipingBonusBox, 1, 9);
+            this.AttributeTable.Controls.Add(this.StrenngthBox, 0, 1);
+            this.AttributeTable.Controls.Add(this.StrengthLabel, 0, 0);
+            this.AttributeTable.Controls.Add(this.DexterityBox, 0, 3);
+            this.AttributeTable.Controls.Add(this.DexterityLabel, 0, 2);
+            this.AttributeTable.Controls.Add(this.EndurnceBox, 0, 5);
+            this.AttributeTable.Controls.Add(this.EnduranceLabel, 0, 4);
+            this.AttributeTable.Controls.Add(this.IntelligenceLabel, 0, 6);
+            this.AttributeTable.Controls.Add(this.IntelligenceBox, 0, 7);
+            this.AttributeTable.Controls.Add(this.PerceptionLabel, 0, 8);
+            this.AttributeTable.Controls.Add(this.AmbushDetectionLabel, 3, 8);
+            this.AttributeTable.Controls.Add(this.label7, 4, 2);
+            this.AttributeTable.Controls.Add(this.textBox2, 4, 3);
+            this.AttributeTable.Controls.Add(this.AmbushdetectionnBox, 1, 9);
+            this.AttributeTable.Controls.Add(this.textBox1, 0, 9);
+            this.AttributeTable.Controls.Add(this.SystemShockBox, 1, 5);
+            this.AttributeTable.Controls.Add(this.SystemShockLabel, 1, 4);
+            this.AttributeTable.Controls.Add(this.ResurectionChanceLabel, 2, 4);
+            this.AttributeTable.Controls.Add(this.ResChanceBox, 2, 5);
+            this.AttributeTable.Location = new System.Drawing.Point(6, 19);
+            this.AttributeTable.Name = "AttributeTable";
+            this.AttributeTable.RowCount = 11;
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.AttributeTable.Size = new System.Drawing.Size(669, 279);
+            this.AttributeTable.TabIndex = 40;
             // 
-            // label50
+            // TrapDetectionLabel
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label50.Location = new System.Drawing.Point(320, 216);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(92, 13);
-            this.label50.TabIndex = 49;
-            this.label50.Text = "Trap Detection";
+            this.TrapDetectionLabel.AutoSize = true;
+            this.TrapDetectionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TrapDetectionLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.TrapDetectionLabel.Location = new System.Drawing.Point(320, 216);
+            this.TrapDetectionLabel.Name = "TrapDetectionLabel";
+            this.TrapDetectionLabel.Size = new System.Drawing.Size(92, 13);
+            this.TrapDetectionLabel.TabIndex = 49;
+            this.TrapDetectionLabel.Text = "Trap Detection";
             // 
-            // label49
+            // SnipingBonusLabel
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label49.Location = new System.Drawing.Point(190, 216);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(88, 13);
-            this.label49.TabIndex = 49;
-            this.label49.Text = "Sniping Bonus";
+            this.SnipingBonusLabel.AutoSize = true;
+            this.SnipingBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SnipingBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.SnipingBonusLabel.Location = new System.Drawing.Point(190, 216);
+            this.SnipingBonusLabel.Name = "SnipingBonusLabel";
+            this.SnipingBonusLabel.Size = new System.Drawing.Size(88, 13);
+            this.SnipingBonusLabel.TabIndex = 49;
+            this.SnipingBonusLabel.Text = "Sniping Bonus";
             // 
-            // label47
+            // LearnSpellLabel
             // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label47.Location = new System.Drawing.Point(437, 162);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(92, 26);
-            this.label47.TabIndex = 49;
-            this.label47.Text = "Spell Learning Chance";
+            this.LearnSpellLabel.AutoSize = true;
+            this.LearnSpellLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LearnSpellLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.LearnSpellLabel.Location = new System.Drawing.Point(437, 162);
+            this.LearnSpellLabel.Name = "LearnSpellLabel";
+            this.LearnSpellLabel.Size = new System.Drawing.Size(92, 26);
+            this.LearnSpellLabel.TabIndex = 49;
+            this.LearnSpellLabel.Text = "Spell Learning Chance";
             // 
-            // label46
+            // ManaBousLabel
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label46.Location = new System.Drawing.Point(320, 162);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(77, 13);
-            this.label46.TabIndex = 49;
-            this.label46.Text = "Mana Bonus";
+            this.ManaBousLabel.AutoSize = true;
+            this.ManaBousLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManaBousLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.ManaBousLabel.Location = new System.Drawing.Point(320, 162);
+            this.ManaBousLabel.Name = "ManaBousLabel";
+            this.ManaBousLabel.Size = new System.Drawing.Size(77, 13);
+            this.ManaBousLabel.TabIndex = 49;
+            this.ManaBousLabel.Text = "Mana Bonus";
             // 
-            // label45
+            // XpCostLabel
             // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label45.Location = new System.Drawing.Point(190, 162);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(99, 13);
-            this.label45.TabIndex = 49;
-            this.label45.Text = "XP Cost Change";
+            this.XpCostLabel.AutoSize = true;
+            this.XpCostLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XpCostLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.XpCostLabel.Location = new System.Drawing.Point(190, 162);
+            this.XpCostLabel.Name = "XpCostLabel";
+            this.XpCostLabel.Size = new System.Drawing.Size(99, 13);
+            this.XpCostLabel.TabIndex = 49;
+            this.XpCostLabel.Text = "XP Cost Change";
             // 
-            // textBox36
+            // LearnSpellBox
             // 
-            this.textBox36.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(437, 192);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(64, 22);
-            this.textBox36.TabIndex = 26;
+            this.LearnSpellBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.LearnSpellBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LearnSpellBox.Location = new System.Drawing.Point(437, 192);
+            this.LearnSpellBox.Name = "LearnSpellBox";
+            this.LearnSpellBox.ReadOnly = true;
+            this.LearnSpellBox.Size = new System.Drawing.Size(64, 22);
+            this.LearnSpellBox.TabIndex = 26;
             // 
-            // textBox25
+            // ManaBonusBox
             // 
-            this.textBox25.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(320, 192);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.ReadOnly = true;
-            this.textBox25.Size = new System.Drawing.Size(64, 22);
-            this.textBox25.TabIndex = 25;
+            this.ManaBonusBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.ManaBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManaBonusBox.Location = new System.Drawing.Point(320, 192);
+            this.ManaBonusBox.Name = "ManaBonusBox";
+            this.ManaBonusBox.ReadOnly = true;
+            this.ManaBonusBox.Size = new System.Drawing.Size(64, 22);
+            this.ManaBonusBox.TabIndex = 25;
             // 
             // textBox26
             // 
@@ -408,367 +403,325 @@
             this.textBox26.Size = new System.Drawing.Size(64, 22);
             this.textBox26.TabIndex = 24;
             // 
-            // textBox18
+            // BarBendBox
             // 
-            this.textBox18.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(554, 30);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(64, 22);
-            this.textBox18.TabIndex = 13;
+            this.BarBendBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.BarBendBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BarBendBox.Location = new System.Drawing.Point(554, 30);
+            this.BarBendBox.Name = "BarBendBox";
+            this.BarBendBox.ReadOnly = true;
+            this.BarBendBox.Size = new System.Drawing.Size(64, 22);
+            this.BarBendBox.TabIndex = 13;
             // 
-            // textBox28
+            // PersonalInitativeBox
             // 
-            this.textBox28.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.Location = new System.Drawing.Point(554, 138);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
-            this.textBox28.Size = new System.Drawing.Size(64, 22);
-            this.textBox28.TabIndex = 22;
+            this.PersonalInitativeBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.PersonalInitativeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PersonalInitativeBox.Location = new System.Drawing.Point(190, 84);
+            this.PersonalInitativeBox.Name = "PersonalInitativeBox";
+            this.PersonalInitativeBox.ReadOnly = true;
+            this.PersonalInitativeBox.Size = new System.Drawing.Size(64, 22);
+            this.PersonalInitativeBox.TabIndex = 14;
             // 
-            // textBox24
+            // ResChanceBox
             // 
-            this.textBox24.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.Location = new System.Drawing.Point(190, 84);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.ReadOnly = true;
-            this.textBox24.Size = new System.Drawing.Size(64, 22);
-            this.textBox24.TabIndex = 14;
+            this.ResChanceBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.ResChanceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResChanceBox.Location = new System.Drawing.Point(320, 138);
+            this.ResChanceBox.Name = "ResChanceBox";
+            this.ResChanceBox.ReadOnly = true;
+            this.ResChanceBox.Size = new System.Drawing.Size(64, 22);
+            this.ResChanceBox.TabIndex = 21;
             // 
-            // textBox29
+            // ProjectileBonusBox
             // 
-            this.textBox29.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(437, 138);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(64, 22);
-            this.textBox29.TabIndex = 21;
+            this.ProjectileBonusBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.ProjectileBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProjectileBonusBox.Location = new System.Drawing.Point(320, 84);
+            this.ProjectileBonusBox.Name = "ProjectileBonusBox";
+            this.ProjectileBonusBox.ReadOnly = true;
+            this.ProjectileBonusBox.Size = new System.Drawing.Size(64, 22);
+            this.ProjectileBonusBox.TabIndex = 15;
             // 
-            // textBox23
+            // SystemShockBox
             // 
-            this.textBox23.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(320, 84);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(64, 22);
-            this.textBox23.TabIndex = 15;
+            this.SystemShockBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.SystemShockBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SystemShockBox.Location = new System.Drawing.Point(190, 138);
+            this.SystemShockBox.Name = "SystemShockBox";
+            this.SystemShockBox.ReadOnly = true;
+            this.SystemShockBox.Size = new System.Drawing.Size(64, 22);
+            this.SystemShockBox.TabIndex = 20;
             // 
-            // textBox30
+            // AcDexBonusBox
             // 
-            this.textBox30.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.Location = new System.Drawing.Point(320, 138);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(64, 22);
-            this.textBox30.TabIndex = 20;
+            this.AcDexBonusBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.AcDexBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AcDexBonusBox.Location = new System.Drawing.Point(437, 84);
+            this.AcDexBonusBox.Name = "AcDexBonusBox";
+            this.AcDexBonusBox.ReadOnly = true;
+            this.AcDexBonusBox.Size = new System.Drawing.Size(64, 22);
+            this.AcDexBonusBox.TabIndex = 16;
             // 
-            // textBox22
+            // StrengthAttackBonusBox
             // 
-            this.textBox22.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(437, 84);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(64, 22);
-            this.textBox22.TabIndex = 16;
+            this.StrengthAttackBonusBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.StrengthAttackBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrengthAttackBonusBox.Location = new System.Drawing.Point(190, 30);
+            this.StrengthAttackBonusBox.Name = "StrengthAttackBonusBox";
+            this.StrengthAttackBonusBox.ReadOnly = true;
+            this.StrengthAttackBonusBox.Size = new System.Drawing.Size(64, 22);
+            this.StrengthAttackBonusBox.TabIndex = 18;
             // 
-            // textBox19
+            // OpenDoorBox
             // 
-            this.textBox19.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(190, 138);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(64, 22);
-            this.textBox19.TabIndex = 19;
+            this.OpenDoorBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.OpenDoorBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OpenDoorBox.Location = new System.Drawing.Point(437, 30);
+            this.OpenDoorBox.Name = "OpenDoorBox";
+            this.OpenDoorBox.ReadOnly = true;
+            this.OpenDoorBox.Size = new System.Drawing.Size(64, 22);
+            this.OpenDoorBox.TabIndex = 28;
             // 
-            // textBox20
+            // DamageBonusLabel
             // 
-            this.textBox20.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.Location = new System.Drawing.Point(190, 30);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.ReadOnly = true;
-            this.textBox20.Size = new System.Drawing.Size(64, 22);
-            this.textBox20.TabIndex = 18;
+            this.DamageBonusLabel.AutoSize = true;
+            this.DamageBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DamageBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.DamageBonusLabel.Location = new System.Drawing.Point(320, 0);
+            this.DamageBonusLabel.Name = "DamageBonusLabel";
+            this.DamageBonusLabel.Size = new System.Drawing.Size(92, 13);
+            this.DamageBonusLabel.TabIndex = 39;
+            this.DamageBonusLabel.Text = "Damage Bonus";
             // 
-            // textBox34
+            // StrnegthDamageBox
             // 
-            this.textBox34.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(437, 30);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(64, 22);
-            this.textBox34.TabIndex = 28;
+            this.StrnegthDamageBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.StrnegthDamageBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrnegthDamageBox.Location = new System.Drawing.Point(320, 30);
+            this.StrnegthDamageBox.Name = "StrnegthDamageBox";
+            this.StrnegthDamageBox.ReadOnly = true;
+            this.StrnegthDamageBox.Size = new System.Drawing.Size(64, 22);
+            this.StrnegthDamageBox.TabIndex = 23;
             // 
-            // label20
+            // AttackBonusLabel
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label20.Location = new System.Drawing.Point(320, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(92, 13);
-            this.label20.TabIndex = 39;
-            this.label20.Text = "Damage Bonus";
+            this.AttackBonusLabel.AutoSize = true;
+            this.AttackBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AttackBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.AttackBonusLabel.Location = new System.Drawing.Point(190, 0);
+            this.AttackBonusLabel.Name = "AttackBonusLabel";
+            this.AttackBonusLabel.Size = new System.Drawing.Size(83, 13);
+            this.AttackBonusLabel.TabIndex = 38;
+            this.AttackBonusLabel.Text = "Attack Bonus";
             // 
-            // textBox27
+            // OpenDoorLabel
             // 
-            this.textBox27.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(320, 30);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
-            this.textBox27.Size = new System.Drawing.Size(64, 22);
-            this.textBox27.TabIndex = 23;
+            this.OpenDoorLabel.AutoSize = true;
+            this.OpenDoorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OpenDoorLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.OpenDoorLabel.Location = new System.Drawing.Point(437, 0);
+            this.OpenDoorLabel.Name = "OpenDoorLabel";
+            this.OpenDoorLabel.Size = new System.Drawing.Size(85, 13);
+            this.OpenDoorLabel.TabIndex = 40;
+            this.OpenDoorLabel.Text = "Door Opening";
             // 
-            // label19
+            // BarBendLabel
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label19.Location = new System.Drawing.Point(190, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(83, 13);
-            this.label19.TabIndex = 38;
-            this.label19.Text = "Attack Bonus";
+            this.BarBendLabel.AutoSize = true;
+            this.BarBendLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BarBendLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.BarBendLabel.Location = new System.Drawing.Point(554, 0);
+            this.BarBendLabel.Name = "BarBendLabel";
+            this.BarBendLabel.Size = new System.Drawing.Size(109, 26);
+            this.BarBendLabel.TabIndex = 41;
+            this.BarBendLabel.Text = "Bar Bending/Gate Lifting";
             // 
-            // label36
+            // AmbushDetectionBox
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label36.Location = new System.Drawing.Point(437, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(85, 13);
-            this.label36.TabIndex = 40;
-            this.label36.Text = "Door Opening";
+            this.AmbushDetectionBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.AmbushDetectionBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmbushDetectionBox.Location = new System.Drawing.Point(320, 246);
+            this.AmbushDetectionBox.Name = "AmbushDetectionBox";
+            this.AmbushDetectionBox.ReadOnly = true;
+            this.AmbushDetectionBox.Size = new System.Drawing.Size(64, 22);
+            this.AmbushDetectionBox.TabIndex = 9;
             // 
-            // label37
+            // PersonalInitativeLabel
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label37.Location = new System.Drawing.Point(554, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(109, 26);
-            this.label37.TabIndex = 41;
-            this.label37.Text = "Bar Bending/Gate Lifting";
+            this.PersonalInitativeLabel.AutoSize = true;
+            this.PersonalInitativeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PersonalInitativeLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.PersonalInitativeLabel.Location = new System.Drawing.Point(190, 54);
+            this.PersonalInitativeLabel.Name = "PersonalInitativeLabel";
+            this.PersonalInitativeLabel.Size = new System.Drawing.Size(109, 13);
+            this.PersonalInitativeLabel.TabIndex = 42;
+            this.PersonalInitativeLabel.Text = "Personal Initiative";
             // 
-            // textBox10
+            // ProjectileBonusLabel
             // 
-            this.textBox10.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(437, 246);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(64, 22);
-            this.textBox10.TabIndex = 9;
+            this.ProjectileBonusLabel.AutoSize = true;
+            this.ProjectileBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProjectileBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.ProjectileBonusLabel.Location = new System.Drawing.Point(320, 54);
+            this.ProjectileBonusLabel.Name = "ProjectileBonusLabel";
+            this.ProjectileBonusLabel.Size = new System.Drawing.Size(99, 13);
+            this.ProjectileBonusLabel.TabIndex = 43;
+            this.ProjectileBonusLabel.Text = "Projectile Bonus";
             // 
-            // label5
+            // AcBonusLabel
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label5.Location = new System.Drawing.Point(190, 54);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 13);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "Personal Initiative";
+            this.AcBonusLabel.AutoSize = true;
+            this.AcBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AcBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.AcBonusLabel.Location = new System.Drawing.Point(437, 54);
+            this.AcBonusLabel.Name = "AcBonusLabel";
+            this.AcBonusLabel.Size = new System.Drawing.Size(70, 13);
+            this.AcBonusLabel.TabIndex = 44;
+            this.AcBonusLabel.Text = "AC Change";
             // 
-            // label38
+            // SystemShockLabel
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label38.Location = new System.Drawing.Point(320, 54);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(99, 13);
-            this.label38.TabIndex = 43;
-            this.label38.Text = "Projectile Bonus";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label39.Location = new System.Drawing.Point(437, 54);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(70, 13);
-            this.label39.TabIndex = 44;
-            this.label39.Text = "AC Change";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label41.Location = new System.Drawing.Point(190, 108);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(71, 13);
-            this.label41.TabIndex = 46;
-            this.label41.Text = "HP Change";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label42.Location = new System.Drawing.Point(320, 108);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(87, 13);
-            this.label42.TabIndex = 47;
-            this.label42.Text = "System Shock";
+            this.SystemShockLabel.AutoSize = true;
+            this.SystemShockLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SystemShockLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.SystemShockLabel.Location = new System.Drawing.Point(190, 108);
+            this.SystemShockLabel.Name = "SystemShockLabel";
+            this.SystemShockLabel.Size = new System.Drawing.Size(87, 13);
+            this.SystemShockLabel.TabIndex = 47;
+            this.SystemShockLabel.Text = "System Shock";
             // 
             // ResurectionChanceLabel
             // 
             this.ResurectionChanceLabel.AutoSize = true;
             this.ResurectionChanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResurectionChanceLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.ResurectionChanceLabel.Location = new System.Drawing.Point(437, 108);
+            this.ResurectionChanceLabel.Location = new System.Drawing.Point(320, 108);
             this.ResurectionChanceLabel.Name = "ResurectionChanceLabel";
             this.ResurectionChanceLabel.Size = new System.Drawing.Size(83, 26);
             this.ResurectionChanceLabel.TabIndex = 49;
             this.ResurectionChanceLabel.Text = "Resurrection Chance";
             // 
-            // textBox8
+            // SnipingBonusBox
             // 
-            this.textBox8.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(190, 246);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(64, 22);
-            this.textBox8.TabIndex = 7;
+            this.SnipingBonusBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.SnipingBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SnipingBonusBox.Location = new System.Drawing.Point(190, 246);
+            this.SnipingBonusBox.Name = "SnipingBonusBox";
+            this.SnipingBonusBox.ReadOnly = true;
+            this.SnipingBonusBox.Size = new System.Drawing.Size(64, 22);
+            this.SnipingBonusBox.TabIndex = 7;
             // 
-            // label43
+            // StrenngthBox
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label43.Location = new System.Drawing.Point(554, 108);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(82, 26);
-            this.label43.TabIndex = 48;
-            this.label43.Text = "Poison Save Bonus";
+            this.StrenngthBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.StrenngthBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrenngthBox.Location = new System.Drawing.Point(3, 30);
+            this.StrenngthBox.Name = "StrenngthBox";
+            this.StrenngthBox.ReadOnly = true;
+            this.StrenngthBox.Size = new System.Drawing.Size(64, 22);
+            this.StrenngthBox.TabIndex = 52;
             // 
-            // textBox33
+            // StrengthLabel
             // 
-            this.textBox33.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.Location = new System.Drawing.Point(3, 30);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(64, 22);
-            this.textBox33.TabIndex = 52;
+            this.StrengthLabel.AutoSize = true;
+            this.StrengthLabel.Enabled = false;
+            this.StrengthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StrengthLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.StrengthLabel.Location = new System.Drawing.Point(3, 0);
+            this.StrengthLabel.Name = "StrengthLabel";
+            this.StrengthLabel.Size = new System.Drawing.Size(65, 16);
+            this.StrengthLabel.TabIndex = 2;
+            this.StrengthLabel.Text = "Strength";
             // 
-            // label1
+            // DexterityBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Enabled = false;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 16);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Strength";
+            this.DexterityBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.DexterityBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DexterityBox.Location = new System.Drawing.Point(3, 84);
+            this.DexterityBox.Name = "DexterityBox";
+            this.DexterityBox.ReadOnly = true;
+            this.DexterityBox.Size = new System.Drawing.Size(64, 22);
+            this.DexterityBox.TabIndex = 15;
             // 
-            // textBox6
+            // DexterityLabel
             // 
-            this.textBox6.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(3, 84);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(64, 22);
-            this.textBox6.TabIndex = 15;
+            this.DexterityLabel.AutoSize = true;
+            this.DexterityLabel.Enabled = false;
+            this.DexterityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DexterityLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.DexterityLabel.Location = new System.Drawing.Point(3, 54);
+            this.DexterityLabel.Name = "DexterityLabel";
+            this.DexterityLabel.Size = new System.Drawing.Size(69, 16);
+            this.DexterityLabel.TabIndex = 3;
+            this.DexterityLabel.Text = "Dexterity";
             // 
-            // label3
+            // EndurnceBox
             // 
-            this.label3.AutoSize = true;
-            this.label3.Enabled = false;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label3.Location = new System.Drawing.Point(3, 54);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Dexterity";
+            this.EndurnceBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.EndurnceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EndurnceBox.Location = new System.Drawing.Point(3, 138);
+            this.EndurnceBox.Name = "EndurnceBox";
+            this.EndurnceBox.ReadOnly = true;
+            this.EndurnceBox.Size = new System.Drawing.Size(64, 22);
+            this.EndurnceBox.TabIndex = 50;
             // 
-            // textBox31
+            // EnduranceLabel
             // 
-            this.textBox31.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(3, 138);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(64, 22);
-            this.textBox31.TabIndex = 50;
+            this.EnduranceLabel.AutoSize = true;
+            this.EnduranceLabel.Enabled = false;
+            this.EnduranceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnduranceLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.EnduranceLabel.Location = new System.Drawing.Point(3, 108);
+            this.EnduranceLabel.Name = "EnduranceLabel";
+            this.EnduranceLabel.Size = new System.Drawing.Size(82, 16);
+            this.EnduranceLabel.TabIndex = 3;
+            this.EnduranceLabel.Text = "Endurance";
             // 
-            // label2
+            // IntelligenceLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Enabled = false;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label2.Location = new System.Drawing.Point(3, 108);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Endurance";
+            this.IntelligenceLabel.AutoSize = true;
+            this.IntelligenceLabel.Enabled = false;
+            this.IntelligenceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IntelligenceLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.IntelligenceLabel.Location = new System.Drawing.Point(3, 162);
+            this.IntelligenceLabel.Name = "IntelligenceLabel";
+            this.IntelligenceLabel.Size = new System.Drawing.Size(88, 16);
+            this.IntelligenceLabel.TabIndex = 3;
+            this.IntelligenceLabel.Text = "Intelligence";
             // 
-            // label4
+            // IntelligenceBox
             // 
-            this.label4.AutoSize = true;
-            this.label4.Enabled = false;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label4.Location = new System.Drawing.Point(3, 162);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Intelligence";
+            this.IntelligenceBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.IntelligenceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IntelligenceBox.Location = new System.Drawing.Point(3, 192);
+            this.IntelligenceBox.Name = "IntelligenceBox";
+            this.IntelligenceBox.ReadOnly = true;
+            this.IntelligenceBox.Size = new System.Drawing.Size(64, 22);
+            this.IntelligenceBox.TabIndex = 51;
             // 
-            // textBox32
+            // PerceptionLabel
             // 
-            this.textBox32.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(3, 192);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(64, 22);
-            this.textBox32.TabIndex = 51;
+            this.PerceptionLabel.AutoSize = true;
+            this.PerceptionLabel.Enabled = false;
+            this.PerceptionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PerceptionLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.PerceptionLabel.Location = new System.Drawing.Point(3, 216);
+            this.PerceptionLabel.Name = "PerceptionLabel";
+            this.PerceptionLabel.Size = new System.Drawing.Size(83, 16);
+            this.PerceptionLabel.TabIndex = 12;
+            this.PerceptionLabel.Text = "Perception";
             // 
-            // label18
+            // AmbushDetectionLabel
             // 
-            this.label18.AutoSize = true;
-            this.label18.Enabled = false;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label18.Location = new System.Drawing.Point(3, 216);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(83, 16);
-            this.label18.TabIndex = 12;
-            this.label18.Text = "Perception";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label51.Location = new System.Drawing.Point(437, 216);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(110, 13);
-            this.label51.TabIndex = 49;
-            this.label51.Text = "Ambush Detection";
+            this.AmbushDetectionLabel.AutoSize = true;
+            this.AmbushDetectionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmbushDetectionLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.AmbushDetectionLabel.Location = new System.Drawing.Point(437, 216);
+            this.AmbushDetectionLabel.Name = "AmbushDetectionLabel";
+            this.AmbushDetectionLabel.Size = new System.Drawing.Size(110, 13);
+            this.AmbushDetectionLabel.TabIndex = 49;
+            this.AmbushDetectionLabel.Text = "Ambush Detection";
             // 
             // label7
             // 
@@ -791,15 +744,15 @@
             this.textBox2.Size = new System.Drawing.Size(64, 22);
             this.textBox2.TabIndex = 58;
             // 
-            // textBox55
+            // AmbushdetectionnBox
             // 
-            this.textBox55.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox55.Location = new System.Drawing.Point(320, 246);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.ReadOnly = true;
-            this.textBox55.Size = new System.Drawing.Size(64, 22);
-            this.textBox55.TabIndex = 53;
+            this.AmbushdetectionnBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.AmbushdetectionnBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmbushdetectionnBox.Location = new System.Drawing.Point(437, 246);
+            this.AmbushdetectionnBox.Name = "AmbushdetectionnBox";
+            this.AmbushdetectionnBox.ReadOnly = true;
+            this.AmbushdetectionnBox.Size = new System.Drawing.Size(64, 22);
+            this.AmbushdetectionnBox.TabIndex = 53;
             // 
             // textBox1
             // 
@@ -926,7 +879,7 @@
             this.InformationBox.Controls.Add(this.playerNameLabel);
             this.InformationBox.Controls.Add(this.AgeBox);
             this.InformationBox.Controls.Add(this.CharacterNameBox);
-            this.InformationBox.Controls.Add(this.textBox4);
+            this.InformationBox.Controls.Add(this.PlayerNameBox);
             this.InformationBox.Location = new System.Drawing.Point(12, 46);
             this.InformationBox.Name = "InformationBox";
             this.InformationBox.Size = new System.Drawing.Size(733, 166);
@@ -1126,14 +1079,14 @@
             this.CharacterNameBox.Size = new System.Drawing.Size(100, 20);
             this.CharacterNameBox.TabIndex = 1;
             // 
-            // textBox4
+            // PlayerNameBox
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox4.Location = new System.Drawing.Point(169, 19);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 0;
+            this.PlayerNameBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.PlayerNameBox.Location = new System.Drawing.Point(169, 19);
+            this.PlayerNameBox.Name = "PlayerNameBox";
+            this.PlayerNameBox.ReadOnly = true;
+            this.PlayerNameBox.Size = new System.Drawing.Size(100, 20);
+            this.PlayerNameBox.TabIndex = 0;
             // 
             // XPBox
             // 
@@ -1231,14 +1184,16 @@
             // ACBox
             // 
             this.ACBox.BackColor = System.Drawing.Color.Goldenrod;
-            this.ACBox.Controls.Add(this.HeightBox);
-            this.ACBox.Controls.Add(this.tableLayoutPanel1);
-            this.ACBox.Controls.Add(this.textBox42);
+            this.ACBox.Controls.Add(this.ResetAcButton);
+            this.ACBox.Controls.Add(this.SetAcbutton);
+            this.ACBox.Controls.Add(this.AcTable);
+            this.ACBox.Controls.Add(this.ABox);
             this.ACBox.Controls.Add(this.label29);
             this.ACBox.Controls.Add(this.label28);
             this.ACBox.Controls.Add(this.label30);
             this.ACBox.Controls.Add(this.label27);
-            this.ACBox.Controls.Add(this.label26);
+            this.ACBox.Controls.Add(this.TotalAcLabel);
+            this.ACBox.Controls.Add(this.label6);
             this.ACBox.Location = new System.Drawing.Point(409, 218);
             this.ACBox.Name = "ACBox";
             this.ACBox.Size = new System.Drawing.Size(557, 194);
@@ -1246,68 +1201,112 @@
             this.ACBox.TabStop = false;
             this.ACBox.Text = "Armor Class";
             // 
-            // HeightBox
+            // ResetAcButton
             // 
-            this.HeightBox.BackColor = System.Drawing.Color.Cornsilk;
-            this.HeightBox.Location = new System.Drawing.Point(432, 12);
-            this.HeightBox.Name = "HeightBox";
-            this.HeightBox.Size = new System.Drawing.Size(119, 176);
-            this.HeightBox.TabIndex = 14;
-            this.HeightBox.Text = "Change AC\r\n";
-            this.HeightBox.UseVisualStyleBackColor = false;
+            this.ResetAcButton.Location = new System.Drawing.Point(479, 167);
+            this.ResetAcButton.Name = "ResetAcButton";
+            this.ResetAcButton.Size = new System.Drawing.Size(53, 23);
+            this.ResetAcButton.TabIndex = 25;
+            this.ResetAcButton.Text = "Reset";
+            this.ResetAcButton.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel1
+            // SetAcbutton
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox54, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.label35, 0, 7);
-            this.tableLayoutPanel1.Controls.Add(this.PlayerNameBox, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.textBox53, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox51, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label34, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox49, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox50, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label33, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label32, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.StomachACLabel, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.ChestACLabel, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.HeadACLabel, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox47, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox45, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox43, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox40, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox48, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox46, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox44, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox41, 2, 1);
-            this.tableLayoutPanel1.Enabled = false;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 12);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 8;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(341, 176);
-            this.tableLayoutPanel1.TabIndex = 13;
+            this.SetAcbutton.Location = new System.Drawing.Point(444, 168);
+            this.SetAcbutton.Name = "SetAcbutton";
+            this.SetAcbutton.Size = new System.Drawing.Size(34, 23);
+            this.SetAcbutton.TabIndex = 24;
+            this.SetAcbutton.Text = "Set";
+            this.SetAcbutton.UseVisualStyleBackColor = true;
             // 
-            // textBox54
+            // AcTable
             // 
-            this.textBox54.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox54.Location = new System.Drawing.Point(173, 156);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.ReadOnly = true;
-            this.textBox54.Size = new System.Drawing.Size(79, 20);
-            this.textBox54.TabIndex = 20;
+            this.AcTable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.AcTable.ColumnCount = 3;
+            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.2844F));
+            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.07838F));
+            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.82898F));
+            this.AcTable.Controls.Add(this.label9, 2, 0);
+            this.AcTable.Controls.Add(this.label8, 1, 0);
+            this.AcTable.Controls.Add(this.BodyPartLabel, 0, 0);
+            this.AcTable.Controls.Add(this.LLegArmourBox, 1, 7);
+            this.AcTable.Controls.Add(this.label35, 0, 7);
+            this.AcTable.Controls.Add(this.LLegAimedArmour, 2, 7);
+            this.AcTable.Controls.Add(this.RLegAimedArmour, 2, 6);
+            this.AcTable.Controls.Add(this.RLegArmourBox, 1, 6);
+            this.AcTable.Controls.Add(this.label34, 0, 6);
+            this.AcTable.Controls.Add(this.LHandArmourBox, 1, 5);
+            this.AcTable.Controls.Add(this.LHandAimedArmour, 2, 5);
+            this.AcTable.Controls.Add(this.label33, 0, 5);
+            this.AcTable.Controls.Add(this.label32, 0, 4);
+            this.AcTable.Controls.Add(this.StomachACLabel, 0, 3);
+            this.AcTable.Controls.Add(this.ChestACLabel, 0, 2);
+            this.AcTable.Controls.Add(this.HeadACLabel, 0, 1);
+            this.AcTable.Controls.Add(this.RHandArmourBox, 1, 4);
+            this.AcTable.Controls.Add(this.StomachArmourBox, 1, 3);
+            this.AcTable.Controls.Add(this.ChestArmourBox, 1, 2);
+            this.AcTable.Controls.Add(this.HeadArmourBox, 1, 1);
+            this.AcTable.Controls.Add(this.RHandAimedArmour, 2, 4);
+            this.AcTable.Controls.Add(this.StomachAimedArmour, 2, 3);
+            this.AcTable.Controls.Add(this.ChestAimedArmour, 2, 2);
+            this.AcTable.Controls.Add(this.HeadAimedArmour, 2, 1);
+            this.AcTable.Enabled = false;
+            this.AcTable.Location = new System.Drawing.Point(2, 12);
+            this.AcTable.Name = "AcTable";
+            this.AcTable.RowCount = 8;
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
+            this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.AcTable.Size = new System.Drawing.Size(421, 176);
+            this.AcTable.TabIndex = 13;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label9.Location = new System.Drawing.Point(289, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(105, 16);
+            this.label9.TabIndex = 27;
+            this.label9.Text = "Aimed Armour";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label8.Location = new System.Drawing.Point(176, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(106, 16);
+            this.label8.TabIndex = 26;
+            this.label8.Text = "Partial Armour";
+            // 
+            // BodyPartLabel
+            // 
+            this.BodyPartLabel.AutoSize = true;
+            this.BodyPartLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BodyPartLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.BodyPartLabel.Location = new System.Drawing.Point(3, 0);
+            this.BodyPartLabel.Name = "BodyPartLabel";
+            this.BodyPartLabel.Size = new System.Drawing.Size(76, 16);
+            this.BodyPartLabel.TabIndex = 21;
+            this.BodyPartLabel.Text = "Body Part";
+            // 
+            // LLegArmourBox
+            // 
+            this.LLegArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.LLegArmourBox.Location = new System.Drawing.Point(176, 156);
+            this.LLegArmourBox.Name = "LLegArmourBox";
+            this.LLegArmourBox.ReadOnly = true;
+            this.LLegArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.LLegArmourBox.TabIndex = 20;
             // 
             // label35
             // 
@@ -1320,34 +1319,34 @@
             this.label35.TabIndex = 18;
             this.label35.Text = "Left Leg";
             // 
-            // PlayerNameBox
+            // LLegAimedArmour
             // 
-            this.PlayerNameBox.BackColor = System.Drawing.Color.Cornsilk;
-            this.PlayerNameBox.Enabled = false;
-            this.PlayerNameBox.Location = new System.Drawing.Point(258, 156);
-            this.PlayerNameBox.Name = "PlayerNameBox";
-            this.PlayerNameBox.ReadOnly = true;
-            this.PlayerNameBox.Size = new System.Drawing.Size(79, 20);
-            this.PlayerNameBox.TabIndex = 17;
+            this.LLegAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.LLegAimedArmour.Enabled = false;
+            this.LLegAimedArmour.Location = new System.Drawing.Point(289, 156);
+            this.LLegAimedArmour.Name = "LLegAimedArmour";
+            this.LLegAimedArmour.ReadOnly = true;
+            this.LLegAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.LLegAimedArmour.TabIndex = 17;
             // 
-            // textBox53
+            // RLegAimedArmour
             // 
-            this.textBox53.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox53.Location = new System.Drawing.Point(258, 135);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.ReadOnly = true;
-            this.textBox53.Size = new System.Drawing.Size(79, 20);
-            this.textBox53.TabIndex = 19;
+            this.RLegAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.RLegAimedArmour.Location = new System.Drawing.Point(289, 135);
+            this.RLegAimedArmour.Name = "RLegAimedArmour";
+            this.RLegAimedArmour.ReadOnly = true;
+            this.RLegAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.RLegAimedArmour.TabIndex = 19;
             // 
-            // textBox51
+            // RLegArmourBox
             // 
-            this.textBox51.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox51.Enabled = false;
-            this.textBox51.Location = new System.Drawing.Point(173, 135);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.ReadOnly = true;
-            this.textBox51.Size = new System.Drawing.Size(79, 20);
-            this.textBox51.TabIndex = 16;
+            this.RLegArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.RLegArmourBox.Enabled = false;
+            this.RLegArmourBox.Location = new System.Drawing.Point(176, 135);
+            this.RLegArmourBox.Name = "RLegArmourBox";
+            this.RLegArmourBox.ReadOnly = true;
+            this.RLegArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.RLegArmourBox.TabIndex = 16;
             // 
             // label34
             // 
@@ -1360,25 +1359,25 @@
             this.label34.TabIndex = 5;
             this.label34.Text = "Right leg";
             // 
-            // textBox49
+            // LHandArmourBox
             // 
-            this.textBox49.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox49.Enabled = false;
-            this.textBox49.Location = new System.Drawing.Point(173, 113);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.ReadOnly = true;
-            this.textBox49.Size = new System.Drawing.Size(79, 20);
-            this.textBox49.TabIndex = 14;
+            this.LHandArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.LHandArmourBox.Enabled = false;
+            this.LHandArmourBox.Location = new System.Drawing.Point(176, 113);
+            this.LHandArmourBox.Name = "LHandArmourBox";
+            this.LHandArmourBox.ReadOnly = true;
+            this.LHandArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.LHandArmourBox.TabIndex = 14;
             // 
-            // textBox50
+            // LHandAimedArmour
             // 
-            this.textBox50.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox50.Enabled = false;
-            this.textBox50.Location = new System.Drawing.Point(258, 113);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.ReadOnly = true;
-            this.textBox50.Size = new System.Drawing.Size(79, 20);
-            this.textBox50.TabIndex = 15;
+            this.LHandAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.LHandAimedArmour.Enabled = false;
+            this.LHandAimedArmour.Location = new System.Drawing.Point(289, 113);
+            this.LHandAimedArmour.Name = "LHandAimedArmour";
+            this.LHandAimedArmour.ReadOnly = true;
+            this.LHandAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.LHandAimedArmour.TabIndex = 15;
             // 
             // label33
             // 
@@ -1435,100 +1434,100 @@
             this.HeadACLabel.TabIndex = 0;
             this.HeadACLabel.Text = "Head";
             // 
-            // textBox47
+            // RHandArmourBox
             // 
-            this.textBox47.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox47.Enabled = false;
-            this.textBox47.Location = new System.Drawing.Point(173, 91);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.ReadOnly = true;
-            this.textBox47.Size = new System.Drawing.Size(79, 20);
-            this.textBox47.TabIndex = 12;
+            this.RHandArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.RHandArmourBox.Enabled = false;
+            this.RHandArmourBox.Location = new System.Drawing.Point(176, 91);
+            this.RHandArmourBox.Name = "RHandArmourBox";
+            this.RHandArmourBox.ReadOnly = true;
+            this.RHandArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.RHandArmourBox.TabIndex = 12;
             // 
-            // textBox45
+            // StomachArmourBox
             // 
-            this.textBox45.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox45.Enabled = false;
-            this.textBox45.Location = new System.Drawing.Point(173, 69);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.Size = new System.Drawing.Size(79, 20);
-            this.textBox45.TabIndex = 10;
+            this.StomachArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.StomachArmourBox.Enabled = false;
+            this.StomachArmourBox.Location = new System.Drawing.Point(176, 69);
+            this.StomachArmourBox.Name = "StomachArmourBox";
+            this.StomachArmourBox.ReadOnly = true;
+            this.StomachArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.StomachArmourBox.TabIndex = 10;
             // 
-            // textBox43
+            // ChestArmourBox
             // 
-            this.textBox43.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox43.Enabled = false;
-            this.textBox43.Location = new System.Drawing.Point(173, 47);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.ReadOnly = true;
-            this.textBox43.Size = new System.Drawing.Size(79, 20);
-            this.textBox43.TabIndex = 8;
+            this.ChestArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.ChestArmourBox.Enabled = false;
+            this.ChestArmourBox.Location = new System.Drawing.Point(176, 47);
+            this.ChestArmourBox.Name = "ChestArmourBox";
+            this.ChestArmourBox.ReadOnly = true;
+            this.ChestArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.ChestArmourBox.TabIndex = 8;
             // 
-            // textBox40
+            // HeadArmourBox
             // 
-            this.textBox40.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox40.Enabled = false;
-            this.textBox40.Location = new System.Drawing.Point(173, 25);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(79, 20);
-            this.textBox40.TabIndex = 6;
+            this.HeadArmourBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.HeadArmourBox.Enabled = false;
+            this.HeadArmourBox.Location = new System.Drawing.Point(176, 25);
+            this.HeadArmourBox.Name = "HeadArmourBox";
+            this.HeadArmourBox.ReadOnly = true;
+            this.HeadArmourBox.Size = new System.Drawing.Size(86, 20);
+            this.HeadArmourBox.TabIndex = 6;
             // 
-            // textBox48
+            // RHandAimedArmour
             // 
-            this.textBox48.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox48.Enabled = false;
-            this.textBox48.Location = new System.Drawing.Point(258, 91);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.ReadOnly = true;
-            this.textBox48.Size = new System.Drawing.Size(79, 20);
-            this.textBox48.TabIndex = 13;
+            this.RHandAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.RHandAimedArmour.Enabled = false;
+            this.RHandAimedArmour.Location = new System.Drawing.Point(289, 91);
+            this.RHandAimedArmour.Name = "RHandAimedArmour";
+            this.RHandAimedArmour.ReadOnly = true;
+            this.RHandAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.RHandAimedArmour.TabIndex = 13;
             // 
-            // textBox46
+            // StomachAimedArmour
             // 
-            this.textBox46.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox46.Enabled = false;
-            this.textBox46.Location = new System.Drawing.Point(258, 69);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.Size = new System.Drawing.Size(79, 20);
-            this.textBox46.TabIndex = 11;
+            this.StomachAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.StomachAimedArmour.Enabled = false;
+            this.StomachAimedArmour.Location = new System.Drawing.Point(289, 69);
+            this.StomachAimedArmour.Name = "StomachAimedArmour";
+            this.StomachAimedArmour.ReadOnly = true;
+            this.StomachAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.StomachAimedArmour.TabIndex = 11;
             // 
-            // textBox44
+            // ChestAimedArmour
             // 
-            this.textBox44.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox44.Location = new System.Drawing.Point(258, 47);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(79, 20);
-            this.textBox44.TabIndex = 9;
+            this.ChestAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.ChestAimedArmour.Location = new System.Drawing.Point(289, 47);
+            this.ChestAimedArmour.Name = "ChestAimedArmour";
+            this.ChestAimedArmour.ReadOnly = true;
+            this.ChestAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.ChestAimedArmour.TabIndex = 9;
             // 
-            // textBox41
+            // HeadAimedArmour
             // 
-            this.textBox41.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox41.Enabled = false;
-            this.textBox41.Location = new System.Drawing.Point(258, 25);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(79, 20);
-            this.textBox41.TabIndex = 7;
+            this.HeadAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
+            this.HeadAimedArmour.Enabled = false;
+            this.HeadAimedArmour.Location = new System.Drawing.Point(289, 25);
+            this.HeadAimedArmour.Name = "HeadAimedArmour";
+            this.HeadAimedArmour.ReadOnly = true;
+            this.HeadAimedArmour.Size = new System.Drawing.Size(85, 20);
+            this.HeadAimedArmour.TabIndex = 7;
             // 
-            // textBox42
+            // ABox
             // 
-            this.textBox42.BackColor = System.Drawing.Color.Cornsilk;
-            this.textBox42.Enabled = false;
-            this.textBox42.Location = new System.Drawing.Point(354, 47);
-            this.textBox42.Multiline = true;
-            this.textBox42.Name = "textBox42";
-            this.textBox42.ReadOnly = true;
-            this.textBox42.Size = new System.Drawing.Size(65, 96);
-            this.textBox42.TabIndex = 4;
+            this.ABox.BackColor = System.Drawing.Color.Cornsilk;
+            this.ABox.Enabled = false;
+            this.ABox.Location = new System.Drawing.Point(453, 47);
+            this.ABox.Multiline = true;
+            this.ABox.Name = "ABox";
+            this.ABox.ReadOnly = true;
+            this.ABox.Size = new System.Drawing.Size(65, 96);
+            this.ABox.TabIndex = 4;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(417, 43);
+            this.label29.Location = new System.Drawing.Point(518, 43);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(9, 104);
             this.label29.TabIndex = 11;
@@ -1537,7 +1536,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(347, 42);
+            this.label28.Location = new System.Drawing.Point(448, 42);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(9, 104);
             this.label28.TabIndex = 10;
@@ -1546,7 +1545,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(351, 137);
+            this.label30.Location = new System.Drawing.Point(450, 137);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(70, 26);
             this.label30.TabIndex = 12;
@@ -1555,34 +1554,34 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(347, 32);
+            this.label27.Location = new System.Drawing.Point(448, 32);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(79, 13);
             this.label27.TabIndex = 9;
             this.label27.Text = "____________";
             // 
-            // label26
+            // TotalAcLabel
             // 
-            this.label26.AutoSize = true;
-            this.label26.Enabled = false;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label26.Location = new System.Drawing.Point(353, 16);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(68, 16);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "Total AC";
+            this.TotalAcLabel.AutoSize = true;
+            this.TotalAcLabel.Enabled = false;
+            this.TotalAcLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalAcLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.TotalAcLabel.Location = new System.Drawing.Point(454, 16);
+            this.TotalAcLabel.Name = "TotalAcLabel";
+            this.TotalAcLabel.Size = new System.Drawing.Size(68, 16);
+            this.TotalAcLabel.TabIndex = 3;
+            this.TotalAcLabel.Text = "Total AC";
             // 
-            // label9
+            // label6
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label9.Location = new System.Drawing.Point(420, 233);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 16);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Head";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Cornsilk;
+            this.label6.Location = new System.Drawing.Point(173, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(102, 16);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Natural Value";
             // 
             // SaveButton
             // 
@@ -1604,17 +1603,6 @@
             this.SaveAsButton.Text = "Save As...";
             this.SaveAsButton.UseVisualStyleBackColor = false;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label10.Location = new System.Drawing.Point(598, 232);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 16);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "Head";
-            // 
             // Sheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1622,13 +1610,11 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(999, 749);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.SaveAsButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.LoadButton);
             this.Controls.Add(this.NewButton);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.AttributeBox);
             this.Controls.Add(this.ACBox);
             this.Controls.Add(this.XPBox);
             this.Controls.Add(this.InformationBox);
@@ -1638,9 +1624,9 @@
             this.Name = "Sheet";
             this.Text = "Character Sheet";
             this.backstoryBox.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
+            this.AttributeBox.ResumeLayout(false);
+            this.AttributeTable.ResumeLayout(false);
+            this.AttributeTable.PerformLayout();
             this.HPBox.ResumeLayout(false);
             this.HPBox.PerformLayout();
             this.InformationBox.ResumeLayout(false);
@@ -1649,10 +1635,9 @@
             this.XPBox.PerformLayout();
             this.ACBox.ResumeLayout(false);
             this.ACBox.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.AcTable.ResumeLayout(false);
+            this.AcTable.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1661,9 +1646,9 @@
         private System.Windows.Forms.GroupBox backstoryBox;
         private System.Windows.Forms.Button LoadButton;
         private System.Windows.Forms.Button NewButton;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox AttributeBox;
+        private System.Windows.Forms.Button SetAttributeButton;
+        private System.Windows.Forms.Button ResetAttributeButton;
         private System.Windows.Forms.GroupBox HPBox;
         private System.Windows.Forms.Label CurHPLabel;
         private System.Windows.Forms.TextBox HDBox;
@@ -1691,7 +1676,7 @@
         private System.Windows.Forms.Label playerNameLabel;
         private System.Windows.Forms.TextBox AgeBox;
         private System.Windows.Forms.TextBox CharacterNameBox;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox PlayerNameBox;
         private System.Windows.Forms.GroupBox XPBox;
         private System.Windows.Forms.TextBox XPChangeBox;
         private System.Windows.Forms.Label XPChangeLabel;
@@ -1704,86 +1689,85 @@
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.TextBox ABox;
+        private System.Windows.Forms.Label TotalAcLabel;
+        private System.Windows.Forms.TableLayoutPanel AcTable;
+        private System.Windows.Forms.TextBox LLegArmourBox;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox PlayerNameBox;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox LLegAimedArmour;
+        private System.Windows.Forms.TextBox RLegArmourBox;
+        private System.Windows.Forms.TextBox LHandAimedArmour;
+        private System.Windows.Forms.TextBox LHandArmourBox;
+        private System.Windows.Forms.TextBox RHandAimedArmour;
+        private System.Windows.Forms.TextBox RHandArmourBox;
+        private System.Windows.Forms.TextBox StomachAimedArmour;
+        private System.Windows.Forms.TextBox StomachArmourBox;
+        private System.Windows.Forms.TextBox ChestAimedArmour;
+        private System.Windows.Forms.TextBox ChestArmourBox;
+        private System.Windows.Forms.TextBox HeadAimedArmour;
         private System.Windows.Forms.Label ChestACLabel;
         private System.Windows.Forms.Label StomachACLabel;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox HeadArmourBox;
         private System.Windows.Forms.Label HeadACLabel;
-        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.TextBox RLegAimedArmour;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button HeightBox;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.Button SaveAsButton;
         private System.Windows.Forms.Button EditBackStory;
         private System.Windows.Forms.Button ViewBackstoryButton;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TableLayoutPanel AttributeTable;
+        private System.Windows.Forms.Label TrapDetectionLabel;
+        private System.Windows.Forms.Label SnipingBonusLabel;
+        private System.Windows.Forms.Label LearnSpellLabel;
+        private System.Windows.Forms.Label ManaBousLabel;
+        private System.Windows.Forms.Label XpCostLabel;
+        private System.Windows.Forms.TextBox LearnSpellBox;
+        private System.Windows.Forms.TextBox ManaBonusBox;
         private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.TextBox BarBendBox;
+        private System.Windows.Forms.TextBox PersonalInitativeBox;
+        private System.Windows.Forms.TextBox ResChanceBox;
+        private System.Windows.Forms.TextBox ProjectileBonusBox;
+        private System.Windows.Forms.TextBox SystemShockBox;
+        private System.Windows.Forms.TextBox AcDexBonusBox;
+        private System.Windows.Forms.TextBox StrengthAttackBonusBox;
+        private System.Windows.Forms.TextBox OpenDoorBox;
+        private System.Windows.Forms.Label DamageBonusLabel;
+        private System.Windows.Forms.TextBox StrnegthDamageBox;
+        private System.Windows.Forms.Label AttackBonusLabel;
+        private System.Windows.Forms.Label OpenDoorLabel;
+        private System.Windows.Forms.Label BarBendLabel;
+        private System.Windows.Forms.TextBox AmbushDetectionBox;
+        private System.Windows.Forms.Label PersonalInitativeLabel;
+        private System.Windows.Forms.Label ProjectileBonusLabel;
+        private System.Windows.Forms.Label AcBonusLabel;
+        private System.Windows.Forms.Label SystemShockLabel;
         private System.Windows.Forms.Label ResurectionChanceLabel;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.TextBox SnipingBonusBox;
+        private System.Windows.Forms.TextBox StrenngthBox;
+        private System.Windows.Forms.Label StrengthLabel;
+        private System.Windows.Forms.TextBox DexterityBox;
+        private System.Windows.Forms.Label DexterityLabel;
+        private System.Windows.Forms.TextBox EndurnceBox;
+        private System.Windows.Forms.Label EnduranceLabel;
+        private System.Windows.Forms.Label IntelligenceLabel;
+        private System.Windows.Forms.TextBox IntelligenceBox;
+        private System.Windows.Forms.Label PerceptionLabel;
+        private System.Windows.Forms.TextBox AmbushdetectionnBox;
+        private System.Windows.Forms.Label AmbushDetectionLabel;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label BodyPartLabel;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button ResetAcButton;
+        private System.Windows.Forms.Button SetAcbutton;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
     }
 }
 
