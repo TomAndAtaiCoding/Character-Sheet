@@ -27,21 +27,86 @@ namespace Character_Sheet
         public string race;
 
         //AC
-        private const int kBaseArmour = 50;
-        private int AC;
-        private const int kHandBaseArmour = 80;
-        private int RightHandArmour;
-        private int LeftHandArmour;
-        private const int kLegBaseArmour = 70;
-        private int RightFootArmour;
-        private int LeftFootArmour;
-        private const int kStomachBaseValue = 65;
-        private const int kChestBaseArmour = 65;
-        private int ChestArmour;
-        private int StomachAC;
-        private const int kHeadBaseArmour = 130;
-        private int HeadAArmour;
-        private bool EvenDisributAC;
+
+        //Base Armours
+        public const int
+            kBaseArmour = 50,
+            kHeadBaseArmour = 130,
+            kChestBaseArmour = 65,
+            kStomachBaseValue = 65,
+            kHandBaseArmour = 80,
+            kLegBaseArmour = 70;
+        public int[] ArmourConstArray = { kHeadBaseArmour, kChestBaseArmour, kStomachBaseValue, kHandBaseArmour, kLegBaseArmour };
+
+        //Armour Bonuss
+        public int
+            LeftHandArmourBonus,
+            RightHandArmourBonus,
+            ChestArmourBonus,
+            StomachArmourBonus,
+            HeadArmourBonus,
+            RightFootArmourBonus,
+            LeftFootArmourBonus;
+
+        //Aimed and  General Armour
+        private int
+            AC,
+            AimedHeadArmour,
+            AimedChestArmour,
+            AimedStomachArmour,
+            AimedLeftHandArmour,
+            AimedRightHandArmour,
+            AimedLeftFootArmour,
+            AimedRightFootArmour;
+
+        public bool EvenDisributAC;
+
+
+        public void SetArmour()
+        {
+            AC = kBaseArmour + HeadArmourBonus + ChestArmourBonus + StomachArmourBonus + RightHandArmourBonus +
+                LeftHandArmourBonus + RightFootArmourBonus + LeftFootArmourBonus;
+            AimedHeadArmour = kHeadBaseArmour + 5 * HeadArmourBonus;
+            AimedChestArmour = kChestBaseArmour + 5 * ChestArmourBonus;
+            AimedStomachArmour = kStomachBaseValue + 5 * StomachArmourBonus;
+            AimedRightHandArmour = kHandBaseArmour + 5 * RightHandArmourBonus;
+            AimedLeftHandArmour = kHandBaseArmour + 5 * LeftHandArmourBonus;
+            AimedRightFootArmour = kLegBaseArmour + 5 * RightFootArmourBonus;
+            AimedLeftHandArmour = kLegBaseArmour + 5 * LeftFootArmourBonus;
+
+        }
+        public int GetAC()
+        {
+            return AC;
+        }
+        public int GetAimedHead()
+        {
+            return AimedHeadArmour;
+        }
+        public int getAimedChest()
+        {
+            return AimedChestArmour;
+        }
+        public int GetAimedStomach()
+        {
+            return AimedStomachArmour;
+        }
+        public int GetAimedRightHand()
+        {
+            return AimedRightHandArmour;
+        }
+        public int GetAimedLeftHand()
+        {
+            return AimedLeftHandArmour;
+        }
+        public int GetAimedRightfoot()
+        {
+            return AimedRightFootArmour;
+        }
+        public int GetAimedLeftFoot()
+        {
+            return AimedLeftFootArmour;
+        }
 
         //Strength:
         private int Strength;

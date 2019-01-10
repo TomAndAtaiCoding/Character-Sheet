@@ -48,9 +48,7 @@
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.BarBendBox = new System.Windows.Forms.TextBox();
             this.PersonalInitativeBox = new System.Windows.Forms.TextBox();
-            this.ResChanceBox = new System.Windows.Forms.TextBox();
             this.ProjectileBonusBox = new System.Windows.Forms.TextBox();
-            this.SystemShockBox = new System.Windows.Forms.TextBox();
             this.AcDexBonusBox = new System.Windows.Forms.TextBox();
             this.StrengthAttackBonusBox = new System.Windows.Forms.TextBox();
             this.OpenDoorBox = new System.Windows.Forms.TextBox();
@@ -63,8 +61,6 @@
             this.PersonalInitativeLabel = new System.Windows.Forms.Label();
             this.ProjectileBonusLabel = new System.Windows.Forms.Label();
             this.AcBonusLabel = new System.Windows.Forms.Label();
-            this.SystemShockLabel = new System.Windows.Forms.Label();
-            this.ResurectionChanceLabel = new System.Windows.Forms.Label();
             this.SnipingBonusBox = new System.Windows.Forms.TextBox();
             this.StrenngthBox = new System.Windows.Forms.TextBox();
             this.StrengthLabel = new System.Windows.Forms.Label();
@@ -80,7 +76,13 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.AmbushdetectionnBox = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SystemShockBox = new System.Windows.Forms.TextBox();
+            this.SystemShockLabel = new System.Windows.Forms.Label();
+            this.ResurectionChanceLabel = new System.Windows.Forms.Label();
+            this.ResChanceBox = new System.Windows.Forms.TextBox();
             this.HPBox = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.HPPercentBar = new System.Windows.Forms.ProgressBar();
             this.CurHPBox = new System.Windows.Forms.TextBox();
             this.CurHPLabel = new System.Windows.Forms.Label();
             this.HDBox = new System.Windows.Forms.TextBox();
@@ -118,8 +120,14 @@
             this.XPLabel = new System.Windows.Forms.Label();
             this.ChangeXPButton = new System.Windows.Forms.Button();
             this.ACBox = new System.Windows.Forms.GroupBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.ResetAcButton = new System.Windows.Forms.Button();
-            this.SetAcbutton = new System.Windows.Forms.Button();
             this.AcTable = new System.Windows.Forms.TableLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -154,6 +162,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.SaveButton = new System.Windows.Forms.Button();
             this.SaveAsButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.SetAcbutton = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.backstoryBox.SuspendLayout();
             this.AttributeBox.SuspendLayout();
             this.AttributeTable.SuspendLayout();
@@ -224,7 +242,7 @@
             this.AttributeBox.Controls.Add(this.SetAttributeButton);
             this.AttributeBox.Controls.Add(this.ResetAttributeButton);
             this.AttributeBox.Controls.Add(this.AttributeTable);
-            this.AttributeBox.Location = new System.Drawing.Point(138, 418);
+            this.AttributeBox.Location = new System.Drawing.Point(11, 418);
             this.AttributeBox.Name = "AttributeBox";
             this.AttributeBox.Size = new System.Drawing.Size(675, 338);
             this.AttributeBox.TabIndex = 1;
@@ -423,16 +441,6 @@
             this.PersonalInitativeBox.Size = new System.Drawing.Size(64, 22);
             this.PersonalInitativeBox.TabIndex = 14;
             // 
-            // ResChanceBox
-            // 
-            this.ResChanceBox.BackColor = System.Drawing.Color.Cornsilk;
-            this.ResChanceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResChanceBox.Location = new System.Drawing.Point(320, 138);
-            this.ResChanceBox.Name = "ResChanceBox";
-            this.ResChanceBox.ReadOnly = true;
-            this.ResChanceBox.Size = new System.Drawing.Size(64, 22);
-            this.ResChanceBox.TabIndex = 21;
-            // 
             // ProjectileBonusBox
             // 
             this.ProjectileBonusBox.BackColor = System.Drawing.Color.Cornsilk;
@@ -442,16 +450,6 @@
             this.ProjectileBonusBox.ReadOnly = true;
             this.ProjectileBonusBox.Size = new System.Drawing.Size(64, 22);
             this.ProjectileBonusBox.TabIndex = 15;
-            // 
-            // SystemShockBox
-            // 
-            this.SystemShockBox.BackColor = System.Drawing.Color.Cornsilk;
-            this.SystemShockBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SystemShockBox.Location = new System.Drawing.Point(190, 138);
-            this.SystemShockBox.Name = "SystemShockBox";
-            this.SystemShockBox.ReadOnly = true;
-            this.SystemShockBox.Size = new System.Drawing.Size(64, 22);
-            this.SystemShockBox.TabIndex = 20;
             // 
             // AcDexBonusBox
             // 
@@ -579,28 +577,6 @@
             this.AcBonusLabel.Size = new System.Drawing.Size(70, 13);
             this.AcBonusLabel.TabIndex = 44;
             this.AcBonusLabel.Text = "AC Change";
-            // 
-            // SystemShockLabel
-            // 
-            this.SystemShockLabel.AutoSize = true;
-            this.SystemShockLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SystemShockLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.SystemShockLabel.Location = new System.Drawing.Point(190, 108);
-            this.SystemShockLabel.Name = "SystemShockLabel";
-            this.SystemShockLabel.Size = new System.Drawing.Size(87, 13);
-            this.SystemShockLabel.TabIndex = 47;
-            this.SystemShockLabel.Text = "System Shock";
-            // 
-            // ResurectionChanceLabel
-            // 
-            this.ResurectionChanceLabel.AutoSize = true;
-            this.ResurectionChanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResurectionChanceLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.ResurectionChanceLabel.Location = new System.Drawing.Point(320, 108);
-            this.ResurectionChanceLabel.Name = "ResurectionChanceLabel";
-            this.ResurectionChanceLabel.Size = new System.Drawing.Size(83, 26);
-            this.ResurectionChanceLabel.TabIndex = 49;
-            this.ResurectionChanceLabel.Text = "Resurrection Chance";
             // 
             // SnipingBonusBox
             // 
@@ -764,9 +740,53 @@
             this.textBox1.Size = new System.Drawing.Size(64, 22);
             this.textBox1.TabIndex = 54;
             // 
+            // SystemShockBox
+            // 
+            this.SystemShockBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.SystemShockBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SystemShockBox.Location = new System.Drawing.Point(190, 138);
+            this.SystemShockBox.Name = "SystemShockBox";
+            this.SystemShockBox.ReadOnly = true;
+            this.SystemShockBox.Size = new System.Drawing.Size(64, 22);
+            this.SystemShockBox.TabIndex = 20;
+            // 
+            // SystemShockLabel
+            // 
+            this.SystemShockLabel.AutoSize = true;
+            this.SystemShockLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SystemShockLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.SystemShockLabel.Location = new System.Drawing.Point(190, 108);
+            this.SystemShockLabel.Name = "SystemShockLabel";
+            this.SystemShockLabel.Size = new System.Drawing.Size(87, 13);
+            this.SystemShockLabel.TabIndex = 47;
+            this.SystemShockLabel.Text = "System Shock";
+            // 
+            // ResurectionChanceLabel
+            // 
+            this.ResurectionChanceLabel.AutoSize = true;
+            this.ResurectionChanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResurectionChanceLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.ResurectionChanceLabel.Location = new System.Drawing.Point(320, 108);
+            this.ResurectionChanceLabel.Name = "ResurectionChanceLabel";
+            this.ResurectionChanceLabel.Size = new System.Drawing.Size(83, 26);
+            this.ResurectionChanceLabel.TabIndex = 49;
+            this.ResurectionChanceLabel.Text = "Resurrection Chance";
+            // 
+            // ResChanceBox
+            // 
+            this.ResChanceBox.BackColor = System.Drawing.Color.Cornsilk;
+            this.ResChanceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResChanceBox.Location = new System.Drawing.Point(320, 138);
+            this.ResChanceBox.Name = "ResChanceBox";
+            this.ResChanceBox.ReadOnly = true;
+            this.ResChanceBox.Size = new System.Drawing.Size(64, 22);
+            this.ResChanceBox.TabIndex = 21;
+            // 
             // HPBox
             // 
             this.HPBox.BackColor = System.Drawing.Color.Goldenrod;
+            this.HPBox.Controls.Add(this.label1);
+            this.HPBox.Controls.Add(this.HPPercentBar);
             this.HPBox.Controls.Add(this.CurHPBox);
             this.HPBox.Controls.Add(this.CurHPLabel);
             this.HPBox.Controls.Add(this.HDBox);
@@ -780,6 +800,25 @@
             this.HPBox.TabIndex = 2;
             this.HPBox.TabStop = false;
             this.HPBox.Text = "HP";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(140, 168);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "100%";
+            // 
+            // HPPercentBar
+            // 
+            this.HPPercentBar.Location = new System.Drawing.Point(11, 91);
+            this.HPPercentBar.Name = "HPPercentBar";
+            this.HPPercentBar.Size = new System.Drawing.Size(166, 16);
+            this.HPPercentBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.HPPercentBar.TabIndex = 9;
+            this.HPPercentBar.Value = 100;
             // 
             // CurHPBox
             // 
@@ -807,7 +846,7 @@
             // 
             this.HDBox.BackColor = System.Drawing.Color.Cornsilk;
             this.HDBox.Enabled = false;
-            this.HDBox.Location = new System.Drawing.Point(126, 42);
+            this.HDBox.Location = new System.Drawing.Point(126, 16);
             this.HDBox.Name = "HDBox";
             this.HDBox.ReadOnly = true;
             this.HDBox.Size = new System.Drawing.Size(51, 20);
@@ -819,7 +858,7 @@
             this.HDLabel.Enabled = false;
             this.HDLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HDLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.HDLabel.Location = new System.Drawing.Point(6, 42);
+            this.HDLabel.Location = new System.Drawing.Point(6, 16);
             this.HDLabel.Name = "HDLabel";
             this.HDLabel.Size = new System.Drawing.Size(63, 16);
             this.HDLabel.TabIndex = 5;
@@ -829,7 +868,7 @@
             // 
             this.MaxHPBox.BackColor = System.Drawing.Color.Cornsilk;
             this.MaxHPBox.Enabled = false;
-            this.MaxHPBox.Location = new System.Drawing.Point(126, 16);
+            this.MaxHPBox.Location = new System.Drawing.Point(126, 42);
             this.MaxHPBox.Name = "MaxHPBox";
             this.MaxHPBox.ReadOnly = true;
             this.MaxHPBox.Size = new System.Drawing.Size(51, 20);
@@ -841,7 +880,7 @@
             this.MaxHPLabel.Enabled = false;
             this.MaxHPLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaxHPLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.MaxHPLabel.Location = new System.Drawing.Point(6, 16);
+            this.MaxHPLabel.Location = new System.Drawing.Point(6, 42);
             this.MaxHPLabel.Name = "MaxHPLabel";
             this.MaxHPLabel.Size = new System.Drawing.Size(114, 16);
             this.MaxHPLabel.TabIndex = 3;
@@ -850,9 +889,9 @@
             // SetHPButton
             // 
             this.SetHPButton.BackColor = System.Drawing.Color.Cornsilk;
-            this.SetHPButton.Location = new System.Drawing.Point(9, 94);
+            this.SetHPButton.Location = new System.Drawing.Point(9, 110);
             this.SetHPButton.Name = "SetHPButton";
-            this.SetHPButton.Size = new System.Drawing.Size(168, 55);
+            this.SetHPButton.Size = new System.Drawing.Size(168, 39);
             this.SetHPButton.TabIndex = 0;
             this.SetHPButton.Text = "Set HP";
             this.SetHPButton.UseVisualStyleBackColor = false;
@@ -1184,6 +1223,22 @@
             // ACBox
             // 
             this.ACBox.BackColor = System.Drawing.Color.Goldenrod;
+            this.ACBox.Controls.Add(this.button17);
+            this.ACBox.Controls.Add(this.button16);
+            this.ACBox.Controls.Add(this.button15);
+            this.ACBox.Controls.Add(this.button14);
+            this.ACBox.Controls.Add(this.button13);
+            this.ACBox.Controls.Add(this.button12);
+            this.ACBox.Controls.Add(this.button11);
+            this.ACBox.Controls.Add(this.button10);
+            this.ACBox.Controls.Add(this.button1);
+            this.ACBox.Controls.Add(this.button9);
+            this.ACBox.Controls.Add(this.button8);
+            this.ACBox.Controls.Add(this.button7);
+            this.ACBox.Controls.Add(this.button6);
+            this.ACBox.Controls.Add(this.button5);
+            this.ACBox.Controls.Add(this.button4);
+            this.ACBox.Controls.Add(this.button3);
             this.ACBox.Controls.Add(this.ResetAcButton);
             this.ACBox.Controls.Add(this.SetAcbutton);
             this.ACBox.Controls.Add(this.AcTable);
@@ -1196,36 +1251,104 @@
             this.ACBox.Controls.Add(this.label6);
             this.ACBox.Location = new System.Drawing.Point(409, 218);
             this.ACBox.Name = "ACBox";
-            this.ACBox.Size = new System.Drawing.Size(557, 194);
+            this.ACBox.Size = new System.Drawing.Size(570, 194);
             this.ACBox.TabIndex = 5;
             this.ACBox.TabStop = false;
             this.ACBox.Text = "Armor Class";
             // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button9.Location = new System.Drawing.Point(404, 168);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(26, 16);
+            this.button9.TabIndex = 33;
+            this.button9.Text = "...";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button8.Location = new System.Drawing.Point(403, 147);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(26, 16);
+            this.button8.TabIndex = 32;
+            this.button8.Text = "...";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button7.Location = new System.Drawing.Point(404, 127);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(26, 16);
+            this.button7.TabIndex = 31;
+            this.button7.Text = "...";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button6.Location = new System.Drawing.Point(404, 105);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(26, 16);
+            this.button6.TabIndex = 30;
+            this.button6.Text = "...";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button5.Location = new System.Drawing.Point(404, 82);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(26, 16);
+            this.button5.TabIndex = 29;
+            this.button5.Text = "...";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button4.Location = new System.Drawing.Point(404, 58);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(26, 16);
+            this.button4.TabIndex = 28;
+            this.button4.Text = "...";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button3.Location = new System.Drawing.Point(404, 37);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(26, 16);
+            this.button3.TabIndex = 27;
+            this.button3.Text = "...";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // ResetAcButton
             // 
-            this.ResetAcButton.Location = new System.Drawing.Point(479, 167);
+            this.ResetAcButton.Location = new System.Drawing.Point(492, 167);
             this.ResetAcButton.Name = "ResetAcButton";
-            this.ResetAcButton.Size = new System.Drawing.Size(53, 23);
+            this.ResetAcButton.Size = new System.Drawing.Size(69, 23);
             this.ResetAcButton.TabIndex = 25;
-            this.ResetAcButton.Text = "Reset";
+            this.ResetAcButton.Text = "Reset All";
             this.ResetAcButton.UseVisualStyleBackColor = true;
-            // 
-            // SetAcbutton
-            // 
-            this.SetAcbutton.Location = new System.Drawing.Point(444, 168);
-            this.SetAcbutton.Name = "SetAcbutton";
-            this.SetAcbutton.Size = new System.Drawing.Size(34, 23);
-            this.SetAcbutton.TabIndex = 24;
-            this.SetAcbutton.Text = "Set";
-            this.SetAcbutton.UseVisualStyleBackColor = true;
             // 
             // AcTable
             // 
             this.AcTable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.AcTable.ColumnCount = 3;
             this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 41.2844F));
-            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.07838F));
-            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.82898F));
+            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.81651F));
+            this.AcTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.12844F));
             this.AcTable.Controls.Add(this.label9, 2, 0);
             this.AcTable.Controls.Add(this.label8, 1, 0);
             this.AcTable.Controls.Add(this.BodyPartLabel, 0, 0);
@@ -1263,7 +1386,7 @@
             this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
             this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
             this.AcTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.AcTable.Size = new System.Drawing.Size(421, 176);
+            this.AcTable.Size = new System.Drawing.Size(435, 176);
             this.AcTable.TabIndex = 13;
             // 
             // label9
@@ -1271,7 +1394,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label9.Location = new System.Drawing.Point(289, 0);
+            this.label9.Location = new System.Drawing.Point(311, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(105, 16);
             this.label9.TabIndex = 27;
@@ -1282,7 +1405,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label8.Location = new System.Drawing.Point(176, 0);
+            this.label8.Location = new System.Drawing.Point(182, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(106, 16);
             this.label8.TabIndex = 26;
@@ -1302,7 +1425,7 @@
             // LLegArmourBox
             // 
             this.LLegArmourBox.BackColor = System.Drawing.Color.Cornsilk;
-            this.LLegArmourBox.Location = new System.Drawing.Point(176, 156);
+            this.LLegArmourBox.Location = new System.Drawing.Point(182, 156);
             this.LLegArmourBox.Name = "LLegArmourBox";
             this.LLegArmourBox.ReadOnly = true;
             this.LLegArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1323,7 +1446,7 @@
             // 
             this.LLegAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
             this.LLegAimedArmour.Enabled = false;
-            this.LLegAimedArmour.Location = new System.Drawing.Point(289, 156);
+            this.LLegAimedArmour.Location = new System.Drawing.Point(311, 156);
             this.LLegAimedArmour.Name = "LLegAimedArmour";
             this.LLegAimedArmour.ReadOnly = true;
             this.LLegAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1332,7 +1455,8 @@
             // RLegAimedArmour
             // 
             this.RLegAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
-            this.RLegAimedArmour.Location = new System.Drawing.Point(289, 135);
+            this.RLegAimedArmour.Enabled = false;
+            this.RLegAimedArmour.Location = new System.Drawing.Point(311, 135);
             this.RLegAimedArmour.Name = "RLegAimedArmour";
             this.RLegAimedArmour.ReadOnly = true;
             this.RLegAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1342,7 +1466,7 @@
             // 
             this.RLegArmourBox.BackColor = System.Drawing.Color.Cornsilk;
             this.RLegArmourBox.Enabled = false;
-            this.RLegArmourBox.Location = new System.Drawing.Point(176, 135);
+            this.RLegArmourBox.Location = new System.Drawing.Point(182, 135);
             this.RLegArmourBox.Name = "RLegArmourBox";
             this.RLegArmourBox.ReadOnly = true;
             this.RLegArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1363,7 +1487,7 @@
             // 
             this.LHandArmourBox.BackColor = System.Drawing.Color.Cornsilk;
             this.LHandArmourBox.Enabled = false;
-            this.LHandArmourBox.Location = new System.Drawing.Point(176, 113);
+            this.LHandArmourBox.Location = new System.Drawing.Point(182, 113);
             this.LHandArmourBox.Name = "LHandArmourBox";
             this.LHandArmourBox.ReadOnly = true;
             this.LHandArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1373,7 +1497,7 @@
             // 
             this.LHandAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
             this.LHandAimedArmour.Enabled = false;
-            this.LHandAimedArmour.Location = new System.Drawing.Point(289, 113);
+            this.LHandAimedArmour.Location = new System.Drawing.Point(311, 113);
             this.LHandAimedArmour.Name = "LHandAimedArmour";
             this.LHandAimedArmour.ReadOnly = true;
             this.LHandAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1438,7 +1562,7 @@
             // 
             this.RHandArmourBox.BackColor = System.Drawing.Color.Cornsilk;
             this.RHandArmourBox.Enabled = false;
-            this.RHandArmourBox.Location = new System.Drawing.Point(176, 91);
+            this.RHandArmourBox.Location = new System.Drawing.Point(182, 91);
             this.RHandArmourBox.Name = "RHandArmourBox";
             this.RHandArmourBox.ReadOnly = true;
             this.RHandArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1448,7 +1572,7 @@
             // 
             this.StomachArmourBox.BackColor = System.Drawing.Color.Cornsilk;
             this.StomachArmourBox.Enabled = false;
-            this.StomachArmourBox.Location = new System.Drawing.Point(176, 69);
+            this.StomachArmourBox.Location = new System.Drawing.Point(182, 69);
             this.StomachArmourBox.Name = "StomachArmourBox";
             this.StomachArmourBox.ReadOnly = true;
             this.StomachArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1458,7 +1582,7 @@
             // 
             this.ChestArmourBox.BackColor = System.Drawing.Color.Cornsilk;
             this.ChestArmourBox.Enabled = false;
-            this.ChestArmourBox.Location = new System.Drawing.Point(176, 47);
+            this.ChestArmourBox.Location = new System.Drawing.Point(182, 47);
             this.ChestArmourBox.Name = "ChestArmourBox";
             this.ChestArmourBox.ReadOnly = true;
             this.ChestArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1468,7 +1592,7 @@
             // 
             this.HeadArmourBox.BackColor = System.Drawing.Color.Cornsilk;
             this.HeadArmourBox.Enabled = false;
-            this.HeadArmourBox.Location = new System.Drawing.Point(176, 25);
+            this.HeadArmourBox.Location = new System.Drawing.Point(182, 25);
             this.HeadArmourBox.Name = "HeadArmourBox";
             this.HeadArmourBox.ReadOnly = true;
             this.HeadArmourBox.Size = new System.Drawing.Size(86, 20);
@@ -1478,7 +1602,7 @@
             // 
             this.RHandAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
             this.RHandAimedArmour.Enabled = false;
-            this.RHandAimedArmour.Location = new System.Drawing.Point(289, 91);
+            this.RHandAimedArmour.Location = new System.Drawing.Point(311, 91);
             this.RHandAimedArmour.Name = "RHandAimedArmour";
             this.RHandAimedArmour.ReadOnly = true;
             this.RHandAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1488,7 +1612,7 @@
             // 
             this.StomachAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
             this.StomachAimedArmour.Enabled = false;
-            this.StomachAimedArmour.Location = new System.Drawing.Point(289, 69);
+            this.StomachAimedArmour.Location = new System.Drawing.Point(311, 69);
             this.StomachAimedArmour.Name = "StomachAimedArmour";
             this.StomachAimedArmour.ReadOnly = true;
             this.StomachAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1497,7 +1621,8 @@
             // ChestAimedArmour
             // 
             this.ChestAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
-            this.ChestAimedArmour.Location = new System.Drawing.Point(289, 47);
+            this.ChestAimedArmour.Enabled = false;
+            this.ChestAimedArmour.Location = new System.Drawing.Point(311, 47);
             this.ChestAimedArmour.Name = "ChestAimedArmour";
             this.ChestAimedArmour.ReadOnly = true;
             this.ChestAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1507,7 +1632,7 @@
             // 
             this.HeadAimedArmour.BackColor = System.Drawing.Color.Cornsilk;
             this.HeadAimedArmour.Enabled = false;
-            this.HeadAimedArmour.Location = new System.Drawing.Point(289, 25);
+            this.HeadAimedArmour.Location = new System.Drawing.Point(311, 25);
             this.HeadAimedArmour.Name = "HeadAimedArmour";
             this.HeadAimedArmour.ReadOnly = true;
             this.HeadAimedArmour.Size = new System.Drawing.Size(85, 20);
@@ -1566,7 +1691,7 @@
             this.TotalAcLabel.Enabled = false;
             this.TotalAcLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TotalAcLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.TotalAcLabel.Location = new System.Drawing.Point(454, 16);
+            this.TotalAcLabel.Location = new System.Drawing.Point(443, 16);
             this.TotalAcLabel.Name = "TotalAcLabel";
             this.TotalAcLabel.Size = new System.Drawing.Size(68, 16);
             this.TotalAcLabel.TabIndex = 3;
@@ -1602,6 +1727,107 @@
             this.SaveAsButton.TabIndex = 2;
             this.SaveAsButton.Text = "Save As...";
             this.SaveAsButton.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button1.Location = new System.Drawing.Point(512, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(26, 16);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "...";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button10.Location = new System.Drawing.Point(273, 36);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(32, 21);
+            this.button10.TabIndex = 35;
+            this.button10.Text = "Set";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button11.Location = new System.Drawing.Point(273, 58);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(32, 21);
+            this.button11.TabIndex = 36;
+            this.button11.Text = "Set";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button12.Location = new System.Drawing.Point(273, 81);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(32, 19);
+            this.button12.TabIndex = 37;
+            this.button12.Text = "Set";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button13.Location = new System.Drawing.Point(273, 103);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(32, 18);
+            this.button13.TabIndex = 38;
+            this.button13.Text = "Set";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button14.Location = new System.Drawing.Point(273, 123);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(32, 20);
+            this.button14.TabIndex = 39;
+            this.button14.Text = "Set";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button15.Location = new System.Drawing.Point(273, 144);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(32, 22);
+            this.button15.TabIndex = 40;
+            this.button15.Text = "Set";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button16.Location = new System.Drawing.Point(272, 168);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(32, 23);
+            this.button16.TabIndex = 41;
+            this.button16.Text = "Set";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // SetAcbutton
+            // 
+            this.SetAcbutton.Location = new System.Drawing.Point(444, 167);
+            this.SetAcbutton.Name = "SetAcbutton";
+            this.SetAcbutton.Size = new System.Drawing.Size(47, 23);
+            this.SetAcbutton.TabIndex = 24;
+            this.SetAcbutton.Text = "Set All";
+            this.SetAcbutton.UseVisualStyleBackColor = true;
+            this.SetAcbutton.Click += new System.EventHandler(this.SetAcbutton_Click);
+            // 
+            // button17
+            // 
+            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.button17.Location = new System.Drawing.Point(532, 82);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(32, 20);
+            this.button17.TabIndex = 42;
+            this.button17.Text = "Set";
+            this.button17.UseVisualStyleBackColor = true;
             // 
             // Sheet
             // 
@@ -1764,10 +1990,28 @@
         private System.Windows.Forms.Label BodyPartLabel;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button ResetAcButton;
-        private System.Windows.Forms.Button SetAcbutton;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ProgressBar HPPercentBar;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SetAcbutton;
     }
 }
 
