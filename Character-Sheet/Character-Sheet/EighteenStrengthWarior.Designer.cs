@@ -35,25 +35,28 @@
             this.label1 = new System.Windows.Forms.Label();
             this.RollBoxLabel = new System.Windows.Forms.Label();
             this.ExplanationBox = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // RNGRollCheck
             // 
             this.RNGRollCheck.AutoSize = true;
-            this.RNGRollCheck.Checked = true;
-            this.RNGRollCheck.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.RNGRollCheck.BackColor = System.Drawing.Color.Goldenrod;
             this.RNGRollCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.RNGRollCheck.ForeColor = System.Drawing.Color.Cornsilk;
             this.RNGRollCheck.Location = new System.Drawing.Point(18, 160);
             this.RNGRollCheck.Margin = new System.Windows.Forms.Padding(5);
             this.RNGRollCheck.Name = "RNGRollCheck";
             this.RNGRollCheck.Size = new System.Drawing.Size(162, 24);
             this.RNGRollCheck.TabIndex = 0;
             this.RNGRollCheck.Text = "Let Us Roll for You";
-            this.RNGRollCheck.UseVisualStyleBackColor = true;
+            this.RNGRollCheck.UseVisualStyleBackColor = false;
             this.RNGRollCheck.CheckedChanged += new System.EventHandler(this.RNGRollCheck_CheckedChanged);
             // 
             // FinishButton
             // 
+            this.FinishButton.BackColor = System.Drawing.Color.Cornsilk;
             this.FinishButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.FinishButton.Location = new System.Drawing.Point(485, 322);
             this.FinishButton.Margin = new System.Windows.Forms.Padding(5);
@@ -61,14 +64,15 @@
             this.FinishButton.Size = new System.Drawing.Size(196, 55);
             this.FinishButton.TabIndex = 1;
             this.FinishButton.Text = "Finish";
-            this.FinishButton.UseVisualStyleBackColor = true;
+            this.FinishButton.UseVisualStyleBackColor = false;
             this.FinishButton.Click += new System.EventHandler(this.FinishButton_Click);
             // 
             // RollBox
             // 
+            this.RollBox.BackColor = System.Drawing.Color.Cornsilk;
             this.RollBox.Enabled = false;
             this.RollBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.RollBox.Location = new System.Drawing.Point(148, 205);
+            this.RollBox.Location = new System.Drawing.Point(168, 27);
             this.RollBox.Margin = new System.Windows.Forms.Padding(5);
             this.RollBox.Multiline = true;
             this.RollBox.Name = "RollBox";
@@ -87,8 +91,10 @@
             // RollBoxLabel
             // 
             this.RollBoxLabel.AutoSize = true;
+            this.RollBoxLabel.BackColor = System.Drawing.Color.Goldenrod;
             this.RollBoxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.RollBoxLabel.Location = new System.Drawing.Point(14, 236);
+            this.RollBoxLabel.ForeColor = System.Drawing.Color.Cornsilk;
+            this.RollBoxLabel.Location = new System.Drawing.Point(8, 50);
             this.RollBoxLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.RollBoxLabel.Name = "RollBoxLabel";
             this.RollBoxLabel.Size = new System.Drawing.Size(119, 20);
@@ -97,6 +103,7 @@
             // 
             // ExplanationBox
             // 
+            this.ExplanationBox.BackColor = System.Drawing.Color.Cornsilk;
             this.ExplanationBox.Enabled = false;
             this.ExplanationBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.ExplanationBox.Location = new System.Drawing.Point(18, 18);
@@ -107,15 +114,27 @@
             this.ExplanationBox.TabIndex = 5;
             this.ExplanationBox.Text = resources.GetString("ExplanationBox.Text");
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.Goldenrod;
+            this.groupBox1.Controls.Add(this.RollBoxLabel);
+            this.groupBox1.Controls.Add(this.RollBox);
+            this.groupBox1.Location = new System.Drawing.Point(18, 192);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(396, 115);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Roll Input";
+            // 
             // EighteenStrengthWarior
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(713, 391);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ExplanationBox);
-            this.Controls.Add(this.RollBoxLabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.RollBox);
             this.Controls.Add(this.FinishButton);
             this.Controls.Add(this.RNGRollCheck);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
@@ -123,6 +142,8 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "EighteenStrengthWarior";
             this.Text = "EighteenStrengthWarior";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,5 +157,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label RollBoxLabel;
         private System.Windows.Forms.TextBox ExplanationBox;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

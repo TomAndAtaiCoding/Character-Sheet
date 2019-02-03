@@ -245,7 +245,7 @@
             this.AttributeBox.Controls.Add(this.AttributeTable);
             this.AttributeBox.Location = new System.Drawing.Point(11, 418);
             this.AttributeBox.Name = "AttributeBox";
-            this.AttributeBox.Size = new System.Drawing.Size(675, 338);
+            this.AttributeBox.Size = new System.Drawing.Size(959, 307);
             this.AttributeBox.TabIndex = 1;
             this.AttributeBox.TabStop = false;
             this.AttributeBox.Text = "Attributes";
@@ -253,9 +253,9 @@
             // SetAttributeButton
             // 
             this.SetAttributeButton.BackColor = System.Drawing.Color.Cornsilk;
-            this.SetAttributeButton.Location = new System.Drawing.Point(368, 300);
+            this.SetAttributeButton.Location = new System.Drawing.Point(681, 74);
             this.SetAttributeButton.Name = "SetAttributeButton";
-            this.SetAttributeButton.Size = new System.Drawing.Size(307, 51);
+            this.SetAttributeButton.Size = new System.Drawing.Size(272, 51);
             this.SetAttributeButton.TabIndex = 11;
             this.SetAttributeButton.Text = "Set";
             this.SetAttributeButton.UseVisualStyleBackColor = false;
@@ -263,9 +263,9 @@
             // ResetAttributeButton
             // 
             this.ResetAttributeButton.BackColor = System.Drawing.Color.Cornsilk;
-            this.ResetAttributeButton.Location = new System.Drawing.Point(6, 300);
+            this.ResetAttributeButton.Location = new System.Drawing.Point(681, 19);
             this.ResetAttributeButton.Name = "ResetAttributeButton";
-            this.ResetAttributeButton.Size = new System.Drawing.Size(356, 51);
+            this.ResetAttributeButton.Size = new System.Drawing.Size(272, 51);
             this.ResetAttributeButton.TabIndex = 10;
             this.ResetAttributeButton.Text = "Reset";
             this.ResetAttributeButton.UseVisualStyleBackColor = false;
@@ -607,7 +607,7 @@
             this.StrengthLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.StrengthLabel.Location = new System.Drawing.Point(3, 0);
             this.StrengthLabel.Name = "StrengthLabel";
-            this.StrengthLabel.Size = new System.Drawing.Size(65, 16);
+            this.StrengthLabel.Size = new System.Drawing.Size(66, 16);
             this.StrengthLabel.TabIndex = 2;
             this.StrengthLabel.Text = "Strength";
             // 
@@ -629,7 +629,7 @@
             this.DexterityLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.DexterityLabel.Location = new System.Drawing.Point(3, 54);
             this.DexterityLabel.Name = "DexterityLabel";
-            this.DexterityLabel.Size = new System.Drawing.Size(69, 16);
+            this.DexterityLabel.Size = new System.Drawing.Size(70, 16);
             this.DexterityLabel.TabIndex = 3;
             this.DexterityLabel.Text = "Dexterity";
             // 
@@ -651,7 +651,7 @@
             this.EnduranceLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.EnduranceLabel.Location = new System.Drawing.Point(3, 108);
             this.EnduranceLabel.Name = "EnduranceLabel";
-            this.EnduranceLabel.Size = new System.Drawing.Size(82, 16);
+            this.EnduranceLabel.Size = new System.Drawing.Size(83, 16);
             this.EnduranceLabel.TabIndex = 3;
             this.EnduranceLabel.Text = "Endurance";
             // 
@@ -663,7 +663,7 @@
             this.IntelligenceLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.IntelligenceLabel.Location = new System.Drawing.Point(3, 162);
             this.IntelligenceLabel.Name = "IntelligenceLabel";
-            this.IntelligenceLabel.Size = new System.Drawing.Size(88, 16);
+            this.IntelligenceLabel.Size = new System.Drawing.Size(89, 16);
             this.IntelligenceLabel.TabIndex = 3;
             this.IntelligenceLabel.Text = "Intelligence";
             // 
@@ -685,7 +685,7 @@
             this.PerceptionLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.PerceptionLabel.Location = new System.Drawing.Point(3, 216);
             this.PerceptionLabel.Name = "PerceptionLabel";
-            this.PerceptionLabel.Size = new System.Drawing.Size(83, 16);
+            this.PerceptionLabel.Size = new System.Drawing.Size(84, 16);
             this.PerceptionLabel.TabIndex = 12;
             this.PerceptionLabel.Text = "Perception";
             // 
@@ -839,7 +839,7 @@
             this.CurHPLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.CurHPLabel.Location = new System.Drawing.Point(6, 68);
             this.CurHPLabel.Name = "CurHPLabel";
-            this.CurHPLabel.Size = new System.Drawing.Size(82, 16);
+            this.CurHPLabel.Size = new System.Drawing.Size(87, 16);
             this.CurHPLabel.TabIndex = 7;
             this.CurHPLabel.Text = "Current HP";
             // 
@@ -861,7 +861,7 @@
             this.HDLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.HDLabel.Location = new System.Drawing.Point(6, 16);
             this.HDLabel.Name = "HDLabel";
-            this.HDLabel.Size = new System.Drawing.Size(63, 16);
+            this.HDLabel.Size = new System.Drawing.Size(66, 16);
             this.HDLabel.TabIndex = 5;
             this.HDLabel.Text = "Hit Dice";
             // 
@@ -883,7 +883,7 @@
             this.MaxHPLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.MaxHPLabel.Location = new System.Drawing.Point(6, 42);
             this.MaxHPLabel.Name = "MaxHPLabel";
-            this.MaxHPLabel.Size = new System.Drawing.Size(114, 16);
+            this.MaxHPLabel.Size = new System.Drawing.Size(118, 16);
             this.MaxHPLabel.TabIndex = 3;
             this.MaxHPLabel.Text = "Total Hit Points";
             // 
@@ -896,6 +896,7 @@
             this.SetHPButton.TabIndex = 0;
             this.SetHPButton.Text = "Set HP";
             this.SetHPButton.UseVisualStyleBackColor = false;
+            this.SetHPButton.Click += new System.EventHandler(this.SetHPButton_Click);
             // 
             // InformationBox
             // 
@@ -964,7 +965,7 @@
             this.DeityLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.DeityLabel.Location = new System.Drawing.Point(275, 115);
             this.DeityLabel.Name = "DeityLabel";
-            this.DeityLabel.Size = new System.Drawing.Size(200, 16);
+            this.DeityLabel.Size = new System.Drawing.Size(209, 16);
             this.DeityLabel.TabIndex = 16;
             this.DeityLabel.Text = "Character\'s Deity of Choice:";
             // 
@@ -984,7 +985,7 @@
             this.HandLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.HandLabel.Location = new System.Drawing.Point(275, 82);
             this.HandLabel.Name = "HandLabel";
-            this.HandLabel.Size = new System.Drawing.Size(201, 16);
+            this.HandLabel.Size = new System.Drawing.Size(208, 16);
             this.HandLabel.TabIndex = 14;
             this.HandLabel.Text = "Character\'s Dominant Hand:";
             // 
@@ -1004,7 +1005,7 @@
             this.WeightLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.WeightLabel.Location = new System.Drawing.Point(275, 49);
             this.WeightLabel.Name = "WeightLabel";
-            this.WeightLabel.Size = new System.Drawing.Size(131, 16);
+            this.WeightLabel.Size = new System.Drawing.Size(136, 16);
             this.WeightLabel.TabIndex = 12;
             this.WeightLabel.Text = "Character Weight:";
             // 
@@ -1024,7 +1025,7 @@
             this.HeightLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.HeightLabel.Location = new System.Drawing.Point(275, 19);
             this.HeightLabel.Name = "HeightLabel";
-            this.HeightLabel.Size = new System.Drawing.Size(128, 16);
+            this.HeightLabel.Size = new System.Drawing.Size(133, 16);
             this.HeightLabel.TabIndex = 10;
             this.HeightLabel.Text = "Character Height:";
             // 
@@ -1044,7 +1045,7 @@
             this.BirthCityLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.BirthCityLabel.Location = new System.Drawing.Point(6, 123);
             this.BirthCityLabel.Name = "BirthCityLabel";
-            this.BirthCityLabel.Size = new System.Drawing.Size(161, 16);
+            this.BirthCityLabel.Size = new System.Drawing.Size(170, 16);
             this.BirthCityLabel.TabIndex = 8;
             this.BirthCityLabel.Text = "Character City of Birth:";
             // 
@@ -1064,7 +1065,7 @@
             this.NationalityLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.NationalityLabel.Location = new System.Drawing.Point(6, 97);
             this.NationalityLabel.Name = "NationalityLabel";
-            this.NationalityLabel.Size = new System.Drawing.Size(157, 16);
+            this.NationalityLabel.Size = new System.Drawing.Size(162, 16);
             this.NationalityLabel.TabIndex = 6;
             this.NationalityLabel.Text = "Character Nationality:";
             // 
@@ -1075,7 +1076,7 @@
             this.AgeLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.AgeLabel.Location = new System.Drawing.Point(6, 71);
             this.AgeLabel.Name = "AgeLabel";
-            this.AgeLabel.Size = new System.Drawing.Size(111, 16);
+            this.AgeLabel.Size = new System.Drawing.Size(116, 16);
             this.AgeLabel.TabIndex = 5;
             this.AgeLabel.Text = "Character Age:";
             // 
@@ -1086,7 +1087,7 @@
             this.CharacterNameLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.CharacterNameLabel.Location = new System.Drawing.Point(6, 45);
             this.CharacterNameLabel.Name = "CharacterNameLabel";
-            this.CharacterNameLabel.Size = new System.Drawing.Size(124, 16);
+            this.CharacterNameLabel.Size = new System.Drawing.Size(129, 16);
             this.CharacterNameLabel.TabIndex = 4;
             this.CharacterNameLabel.Text = "Character Name:";
             // 
@@ -1097,7 +1098,7 @@
             this.playerNameLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.playerNameLabel.Location = new System.Drawing.Point(6, 19);
             this.playerNameLabel.Name = "playerNameLabel";
-            this.playerNameLabel.Size = new System.Drawing.Size(102, 16);
+            this.playerNameLabel.Size = new System.Drawing.Size(106, 16);
             this.playerNameLabel.TabIndex = 3;
             this.playerNameLabel.Text = "Player Name:";
             // 
@@ -1163,7 +1164,7 @@
             this.XPChangeLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.XPChangeLabel.Location = new System.Drawing.Point(6, 68);
             this.XPChangeLabel.Name = "XPChangeLabel";
-            this.XPChangeLabel.Size = new System.Drawing.Size(106, 16);
+            this.XPChangeLabel.Size = new System.Drawing.Size(114, 16);
             this.XPChangeLabel.TabIndex = 7;
             this.XPChangeLabel.Text = "XP Change By\r\n";
             // 
@@ -1185,7 +1186,7 @@
             this.CurXPLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.CurXPLabel.Location = new System.Drawing.Point(6, 42);
             this.CurXPLabel.Name = "CurXPLabel";
-            this.CurXPLabel.Size = new System.Drawing.Size(139, 16);
+            this.CurXPLabel.Size = new System.Drawing.Size(143, 16);
             this.CurXPLabel.TabIndex = 5;
             this.CurXPLabel.Text = "Current Experience";
             // 
@@ -1207,7 +1208,7 @@
             this.XPLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.XPLabel.Location = new System.Drawing.Point(6, 16);
             this.XPLabel.Name = "XPLabel";
-            this.XPLabel.Size = new System.Drawing.Size(126, 16);
+            this.XPLabel.Size = new System.Drawing.Size(128, 16);
             this.XPLabel.TabIndex = 3;
             this.XPLabel.Text = "Total Experience\r\n";
             // 
@@ -1259,86 +1260,95 @@
             // 
             // button17
             // 
+            this.button17.BackColor = System.Drawing.Color.Cornsilk;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button17.Location = new System.Drawing.Point(532, 82);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(32, 20);
             this.button17.TabIndex = 42;
             this.button17.Text = "Set";
-            this.button17.UseVisualStyleBackColor = true;
+            this.button17.UseVisualStyleBackColor = false;
             // 
             // button16
             // 
+            this.button16.BackColor = System.Drawing.Color.Cornsilk;
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button16.Location = new System.Drawing.Point(272, 168);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(32, 23);
             this.button16.TabIndex = 41;
             this.button16.Text = "Set";
-            this.button16.UseVisualStyleBackColor = true;
+            this.button16.UseVisualStyleBackColor = false;
             // 
             // button15
             // 
+            this.button15.BackColor = System.Drawing.Color.Cornsilk;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button15.Location = new System.Drawing.Point(273, 144);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(32, 22);
             this.button15.TabIndex = 40;
             this.button15.Text = "Set";
-            this.button15.UseVisualStyleBackColor = true;
+            this.button15.UseVisualStyleBackColor = false;
             // 
             // button14
             // 
+            this.button14.BackColor = System.Drawing.Color.Cornsilk;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button14.Location = new System.Drawing.Point(273, 123);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(32, 20);
             this.button14.TabIndex = 39;
             this.button14.Text = "Set";
-            this.button14.UseVisualStyleBackColor = true;
+            this.button14.UseVisualStyleBackColor = false;
             // 
             // button13
             // 
+            this.button13.BackColor = System.Drawing.Color.Cornsilk;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button13.Location = new System.Drawing.Point(273, 103);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(32, 18);
             this.button13.TabIndex = 38;
             this.button13.Text = "Set";
-            this.button13.UseVisualStyleBackColor = true;
+            this.button13.UseVisualStyleBackColor = false;
             // 
             // button12
             // 
+            this.button12.BackColor = System.Drawing.Color.Cornsilk;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button12.Location = new System.Drawing.Point(273, 81);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(32, 19);
             this.button12.TabIndex = 37;
             this.button12.Text = "Set";
-            this.button12.UseVisualStyleBackColor = true;
+            this.button12.UseVisualStyleBackColor = false;
             // 
             // button11
             // 
+            this.button11.BackColor = System.Drawing.Color.Cornsilk;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button11.Location = new System.Drawing.Point(273, 58);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(32, 21);
             this.button11.TabIndex = 36;
             this.button11.Text = "Set";
-            this.button11.UseVisualStyleBackColor = true;
+            this.button11.UseVisualStyleBackColor = false;
             // 
             // button10
             // 
+            this.button10.BackColor = System.Drawing.Color.Cornsilk;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button10.Location = new System.Drawing.Point(273, 36);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(32, 21);
             this.button10.TabIndex = 35;
             this.button10.Text = "Set";
-            this.button10.UseVisualStyleBackColor = true;
+            this.button10.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Cornsilk;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button1.Location = new System.Drawing.Point(512, 16);
             this.button1.Name = "button1";
@@ -1346,10 +1356,11 @@
             this.button1.TabIndex = 34;
             this.button1.Text = "...";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button9
             // 
+            this.button9.BackColor = System.Drawing.Color.Cornsilk;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button9.Location = new System.Drawing.Point(404, 168);
             this.button9.Name = "button9";
@@ -1357,10 +1368,11 @@
             this.button9.TabIndex = 33;
             this.button9.Text = "...";
             this.button9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // button8
             // 
+            this.button8.BackColor = System.Drawing.Color.Cornsilk;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button8.Location = new System.Drawing.Point(403, 147);
             this.button8.Name = "button8";
@@ -1368,10 +1380,11 @@
             this.button8.TabIndex = 32;
             this.button8.Text = "...";
             this.button8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.Color.Cornsilk;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button7.Location = new System.Drawing.Point(404, 127);
             this.button7.Name = "button7";
@@ -1379,10 +1392,11 @@
             this.button7.TabIndex = 31;
             this.button7.Text = "...";
             this.button7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.Cornsilk;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button6.Location = new System.Drawing.Point(404, 105);
             this.button6.Name = "button6";
@@ -1390,10 +1404,11 @@
             this.button6.TabIndex = 30;
             this.button6.Text = "...";
             this.button6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.Cornsilk;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button5.Location = new System.Drawing.Point(404, 82);
             this.button5.Name = "button5";
@@ -1401,10 +1416,11 @@
             this.button5.TabIndex = 29;
             this.button5.Text = "...";
             this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Cornsilk;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button4.Location = new System.Drawing.Point(404, 58);
             this.button4.Name = "button4";
@@ -1412,10 +1428,11 @@
             this.button4.TabIndex = 28;
             this.button4.Text = "...";
             this.button4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Cornsilk;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button3.Location = new System.Drawing.Point(404, 37);
             this.button3.Name = "button3";
@@ -1423,25 +1440,27 @@
             this.button3.TabIndex = 27;
             this.button3.Text = "...";
             this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // ResetAcButton
             // 
+            this.ResetAcButton.BackColor = System.Drawing.Color.Cornsilk;
             this.ResetAcButton.Location = new System.Drawing.Point(492, 167);
             this.ResetAcButton.Name = "ResetAcButton";
             this.ResetAcButton.Size = new System.Drawing.Size(69, 23);
             this.ResetAcButton.TabIndex = 25;
             this.ResetAcButton.Text = "Reset All";
-            this.ResetAcButton.UseVisualStyleBackColor = true;
+            this.ResetAcButton.UseVisualStyleBackColor = false;
             // 
             // SetAcbutton
             // 
+            this.SetAcbutton.BackColor = System.Drawing.Color.Cornsilk;
             this.SetAcbutton.Location = new System.Drawing.Point(444, 167);
             this.SetAcbutton.Name = "SetAcbutton";
             this.SetAcbutton.Size = new System.Drawing.Size(47, 23);
             this.SetAcbutton.TabIndex = 24;
             this.SetAcbutton.Text = "Set All";
-            this.SetAcbutton.UseVisualStyleBackColor = true;
+            this.SetAcbutton.UseVisualStyleBackColor = false;
             this.SetAcbutton.Click += new System.EventHandler(this.SetAcbutton_Click);
             // 
             // AcTable
@@ -1498,7 +1517,7 @@
             this.label9.ForeColor = System.Drawing.Color.Cornsilk;
             this.label9.Location = new System.Drawing.Point(311, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(105, 16);
+            this.label9.Size = new System.Drawing.Size(108, 16);
             this.label9.TabIndex = 27;
             this.label9.Text = "Aimed Armour";
             // 
@@ -1509,7 +1528,7 @@
             this.label8.ForeColor = System.Drawing.Color.Cornsilk;
             this.label8.Location = new System.Drawing.Point(182, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 16);
+            this.label8.Size = new System.Drawing.Size(109, 16);
             this.label8.TabIndex = 26;
             this.label8.Text = "Partial Armour";
             // 
@@ -1520,7 +1539,7 @@
             this.BodyPartLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.BodyPartLabel.Location = new System.Drawing.Point(3, 0);
             this.BodyPartLabel.Name = "BodyPartLabel";
-            this.BodyPartLabel.Size = new System.Drawing.Size(76, 16);
+            this.BodyPartLabel.Size = new System.Drawing.Size(79, 16);
             this.BodyPartLabel.TabIndex = 21;
             this.BodyPartLabel.Text = "Body Part";
             // 
@@ -1540,7 +1559,7 @@
             this.label35.ForeColor = System.Drawing.Color.Cornsilk;
             this.label35.Location = new System.Drawing.Point(3, 153);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(63, 16);
+            this.label35.Size = new System.Drawing.Size(66, 16);
             this.label35.TabIndex = 18;
             this.label35.Text = "Left Leg";
             // 
@@ -1581,7 +1600,7 @@
             this.label34.ForeColor = System.Drawing.Color.Cornsilk;
             this.label34.Location = new System.Drawing.Point(3, 132);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(70, 16);
+            this.label34.Size = new System.Drawing.Size(72, 16);
             this.label34.TabIndex = 5;
             this.label34.Text = "Right leg";
             // 
@@ -1612,7 +1631,7 @@
             this.label33.ForeColor = System.Drawing.Color.Cornsilk;
             this.label33.Location = new System.Drawing.Point(3, 110);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(74, 16);
+            this.label33.Size = new System.Drawing.Size(77, 16);
             this.label33.TabIndex = 4;
             this.label33.Text = "Left Hand";
             // 
@@ -1623,7 +1642,7 @@
             this.label32.ForeColor = System.Drawing.Color.Cornsilk;
             this.label32.Location = new System.Drawing.Point(3, 88);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(85, 16);
+            this.label32.Size = new System.Drawing.Size(88, 16);
             this.label32.TabIndex = 3;
             this.label32.Text = "Right Hand";
             // 
@@ -1634,7 +1653,7 @@
             this.StomachACLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.StomachACLabel.Location = new System.Drawing.Point(3, 66);
             this.StomachACLabel.Name = "StomachACLabel";
-            this.StomachACLabel.Size = new System.Drawing.Size(68, 16);
+            this.StomachACLabel.Size = new System.Drawing.Size(69, 16);
             this.StomachACLabel.TabIndex = 2;
             this.StomachACLabel.Text = "Stomach";
             // 
@@ -1645,7 +1664,7 @@
             this.ChestACLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.ChestACLabel.Location = new System.Drawing.Point(3, 44);
             this.ChestACLabel.Name = "ChestACLabel";
-            this.ChestACLabel.Size = new System.Drawing.Size(47, 16);
+            this.ChestACLabel.Size = new System.Drawing.Size(49, 16);
             this.ChestACLabel.TabIndex = 1;
             this.ChestACLabel.Text = "Chest";
             // 
@@ -1656,7 +1675,7 @@
             this.HeadACLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.HeadACLabel.Location = new System.Drawing.Point(3, 22);
             this.HeadACLabel.Name = "HeadACLabel";
-            this.HeadACLabel.Size = new System.Drawing.Size(46, 16);
+            this.HeadACLabel.Size = new System.Drawing.Size(47, 16);
             this.HeadACLabel.TabIndex = 0;
             this.HeadACLabel.Text = "Head";
             // 
@@ -1795,7 +1814,7 @@
             this.TotalAcLabel.ForeColor = System.Drawing.Color.Cornsilk;
             this.TotalAcLabel.Location = new System.Drawing.Point(443, 16);
             this.TotalAcLabel.Name = "TotalAcLabel";
-            this.TotalAcLabel.Size = new System.Drawing.Size(68, 16);
+            this.TotalAcLabel.Size = new System.Drawing.Size(72, 16);
             this.TotalAcLabel.TabIndex = 3;
             this.TotalAcLabel.Text = "Total AC";
             // 
@@ -1806,7 +1825,7 @@
             this.label6.ForeColor = System.Drawing.Color.Cornsilk;
             this.label6.Location = new System.Drawing.Point(173, 12);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 16);
+            this.label6.Size = new System.Drawing.Size(105, 16);
             this.label6.TabIndex = 23;
             this.label6.Text = "Natural Value";
             // 
@@ -1836,7 +1855,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(999, 749);
+            this.ClientSize = new System.Drawing.Size(999, 741);
             this.Controls.Add(this.SaveAsButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.LoadButton);
@@ -1880,7 +1899,6 @@
         private System.Windows.Forms.Label CurHPLabel;
         private System.Windows.Forms.TextBox HDBox;
         private System.Windows.Forms.Label HDLabel;
-        private System.Windows.Forms.TextBox MaxHPBox;
         private System.Windows.Forms.Label MaxHPLabel;
         private System.Windows.Forms.Button SetHPButton;
         private System.Windows.Forms.TextBox CurHPBox;
@@ -2013,6 +2031,7 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button SetAcbutton;
+        private System.Windows.Forms.TextBox MaxHPBox;
     }
 }
 
