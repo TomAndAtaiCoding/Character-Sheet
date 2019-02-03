@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Convert;
-using static System.Random;
+using static System.Math;
 
 namespace Character_Sheet
 {
@@ -26,19 +26,18 @@ namespace Character_Sheet
         public string CityOfBirth;
         public string race;
 
-        //AC
+      //--------------------AC--------------------
 
-        //Base Armours
+        //----------Base Armours----------
         public const int
             kBaseArmour = 50,
             kHeadBaseArmour = 130,
             kChestBaseArmour = 65,
-            kStomachBaseValue = 65,
+            kStomachBaseArmour = 65,
             kHandBaseArmour = 80,
             kLegBaseArmour = 70;
-        public int[] ArmourConstArray = { kHeadBaseArmour, kChestBaseArmour, kStomachBaseValue, kHandBaseArmour, kLegBaseArmour };
 
-        //Armour Bonuss
+        //----------Armour Bonus----------
         public int
             LeftHandArmourBonus,
             RightHandArmourBonus,
@@ -48,7 +47,7 @@ namespace Character_Sheet
             RightFootArmourBonus,
             LeftFootArmourBonus;
 
-        //Aimed and  General Armour
+        //----------Aimed and General Armour----------
         private int
             AC,
             AimedHeadArmour,
@@ -66,13 +65,13 @@ namespace Character_Sheet
         {
             AC = kBaseArmour + HeadArmourBonus + ChestArmourBonus + StomachArmourBonus + RightHandArmourBonus +
                 LeftHandArmourBonus + RightFootArmourBonus + LeftFootArmourBonus;
-            AimedHeadArmour = kHeadBaseArmour + 5 * HeadArmourBonus;
-            AimedChestArmour = kChestBaseArmour + 5 * ChestArmourBonus;
-            AimedStomachArmour = kStomachBaseValue + 5 * StomachArmourBonus;
-            AimedRightHandArmour = kHandBaseArmour + 5 * RightHandArmourBonus;
-            AimedLeftHandArmour = kHandBaseArmour + 5 * LeftHandArmourBonus;
-            AimedRightFootArmour = kLegBaseArmour + 5 * RightFootArmourBonus;
-            AimedLeftHandArmour = kLegBaseArmour + 5 * LeftFootArmourBonus;
+            AimedHeadArmour = kHeadBaseArmour + (5 * HeadArmourBonus);
+            AimedChestArmour = kChestBaseArmour + (5 * ChestArmourBonus);
+            AimedStomachArmour = kStomachBaseArmour + (5 * StomachArmourBonus);
+            AimedRightHandArmour = kHandBaseArmour + (5 * RightHandArmourBonus);
+            AimedLeftHandArmour = kHandBaseArmour + (5 * LeftHandArmourBonus);
+            AimedRightFootArmour = kLegBaseArmour + (5 * RightFootArmourBonus);
+            AimedLeftHandArmour = kLegBaseArmour + (5 * LeftFootArmourBonus);
 
         }
         public int GetAC()
@@ -572,13 +571,137 @@ namespace Character_Sheet
             int l_Val = Intelligence;
             if (l_Val < 15)
                 ManaBonus = 0;
-            else if (true) { }
+            else
+            {
+                switch (l_Val)
+                {
+                    case (15):
+                        ManaBonus = 5;
+                        break;
+                    case (16):
+                        ManaBonus = 10;
+                        break;
+                    case (17):
+                        ManaBonus = 15;
+                        break;
+                    case (18):
+                        ManaBonus = 20;
+                        break;
+                    case (19):
+                        ManaBonus = 25;
+                        break;
+                }
+            }
         }
-        private void CalculateLearnSpellChance() { }
+        private void CalculateLearnSpellChance()
+        {
+            int l_Val = Intelligence;
+            if (l_Val < 9)
+                LearnSpellChance = 0;
+            else
+            {
+                switch (l_Val)
+                {
+                    case (9):
+                        LearnSpellChance = 35;
+                        break;
+                    case (10):
+                        LearnSpellChance = 40;
+                        break;
+                    case (11):
+                        LearnSpellChance = 45;
+                        break;
+                    case (12):
+                        LearnSpellChance = 50;
+                        break;
+                    case (13):
+                        LearnSpellChance = 55;
+                        break;
+                    case (14):
+                        LearnSpellChance = 60;
+                        break;
+                    case (15):
+                        LearnSpellChance = 65;
+                        break;
+                    case (16):
+                        LearnSpellChance = 70;
+                        break;
+                    case (17):
+                        LearnSpellChance = 75;
+                        break;
+                    case (18):
+                        LearnSpellChance = 85;
+                        break;
+                    case (19):
+                        LearnSpellChance = 95;
+                        break;
+                }
+            }
+        }
 
-
+        //Perception
         private int Perception;
-        private Dictionary<string, bool> Potentials = new Dictionary<string, bool>()
+        public int SnipingBonus;
+        public int TrapDetection;
+        public int AmbushDetection;
+        private void CalculateSnipingBonus()
+        {
+            int l_Val = Perception;
+            if (l_Val < 13 && l_Val > 9)
+                SnipingBonus = 0;
+            else
+            {
+                switch(l_Val)
+                {
+                    case (3):
+                        SnipingBonus = -15;
+                        break;
+                    case (4):
+                        SnipingBonus = -12;
+                        break;
+                    case (5):
+                        SnipingBonus = -10;
+                        break;
+                    case (6):
+                        SnipingBonus = -7;
+                        break;
+                    case (7):
+                        SnipingBonus = -5;
+                        break;
+                    case (8):
+                        SnipingBonus = -2;
+                        break;
+                    case (13):
+                        SnipingBonus = 2;
+                        break;
+                    case (14):
+                        SnipingBonus = 5;
+                        break;
+                    case (15):
+                        SnipingBonus = 7;
+                        break;
+                    case (16):
+                        SnipingBonus = 10;
+                        break;
+                    case (17):
+                        SnipingBonus = 12;
+                        break;
+                    case (18):
+                        SnipingBonus = 15;
+                        break;
+                    case (19):
+                        SnipingBonus = 20;
+                        break;
+                }
+            }
+        }
+        private void CalculateTrapDetection()
+        {
+
+        }
+        private void CalculateAmbushDetection() { }
+
+        public Dictionary<string, bool> Potentials = new Dictionary<string, bool>()
         {
             {"Fighting", false},
             {"Priesthood", false},
@@ -639,10 +762,12 @@ namespace Character_Sheet
         }
         public void  SetEndurace(int end)
         {
-            AttributeValid(end, ref Endurance);
-            CalculateHPInitBonus();
-            CalculateResurrectionSurvival();
-            CalculateSystemShock();
+            if (AttributeValid(end, ref Endurance))
+            {
+                CalculateHPInitBonus();
+                CalculateResurrectionSurvival();
+                CalculateSystemShock();
+            }
         }
         public int GetEndurance()
         {
@@ -650,7 +775,13 @@ namespace Character_Sheet
         }
         public void SetIntelligence(int Int)
         {
-            AttributeValid(Int, ref Intelligence);
+            if(AttributeValid(Int, ref Intelligence))
+            {
+                CalculateXpInitBonus();
+                CalculateXpCostChange();
+                CalculateManaBonus();
+                CalculateLearnSpellChance();
+            }
         }
         public int GetIntelligence()
         {
@@ -658,7 +789,12 @@ namespace Character_Sheet
         }
         public void SetPerception(int per)
         {
-            AttributeValid(per, ref Perception);
+            if(AttributeValid(per, ref Perception))
+            {
+                CalculateSnipingBonus();
+                CalculateTrapDetection();
+                CalculateAmbushDetection();
+            }
         }
         public int GetPerception()
         {
@@ -670,16 +806,54 @@ namespace Character_Sheet
         private int hpd;
         private int AllXP;
         private int CurXP;
+
+        private void SetHPPercentage()
+        {
+            double percentage = ToDouble(CurHP) / ToDouble(MaxHP);
+            Globals.HpPercenteBar.Value = ToInt32(100 * percentage);
+        }
+
         public void SetMaxHP(int maxhp)
         {
             if(maxhp>0)
             {
                 MaxHP = maxhp;
+                SetHPPercentage();
             }
             else
             {
                 MessageBox.Show("Maximum HP must be positive!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        public void SetCurHP(int HP)
+        {
+            CurXP = HP;
+            SetHPPercentage();
+        }
+        public int GetMaxHP()
+        {
+            return MaxHP;
+        }
+        public void AddHPD(int num)
+        {
+            num += num;
+        }
+        public int GetHPD()
+        {
+            return hpd;
+        }
+        public void AddXP(int xp)
+        {
+            AllXP += xp;
+            CurXP += xp;
+        }
+        public int GetAllXP()
+        {
+            return AllXP;
+        }
+        public int GetCurXP()
+        {
+            return CurXP;
         }
     }
 }

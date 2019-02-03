@@ -17,37 +17,54 @@ namespace Character_Sheet
         {
             InitializeComponent();
         }
+
         Character character =  Globals.CurrentCharacter;
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Globals.HpPercenteBar = HPPercentBar;
         }
 
         private void SetAcbutton_Click(object sender, EventArgs e)
         {
             string l_Armour = "";
-            string[] ChangeNameArr = { "Head", "Chest", "Stomach", "Right Hand", "Left Hand", "Right Foot", "Left Foot" };
-            int[] ArmourArray = { character.HeadArmourBonus, character.GetAimedHead(), character.StomachArmourBonus,
-                character.GetAimedStomach(), character.RightHandArmourBonus, character.GetAimedRightHand(),
-                character.LeftHandArmourBonus, character.GetAimedLeftHand(), character.RightFootArmourBonus,
-                character.GetAimedRightfoot(), character.LeftFootArmourBonus, character.GetAimedLeftFoot() };
-            int ArmourCounter = 0;
-            if (int.Parse(HeadArmourBox.Text) != character.HeadArmourBonus)
-                for(int i = 0;i<7;i++)
-                {
-                    if(i%2==0)
-                        l_Armour += Format("{0} Armour Bonus: {1} --> {2}\n", ChangeNameArr[ArmourCounter], ArmourArray[ArmourCounter], HeadArmourBox.Text);
-                    else:
-                        l_Armour += Format("Aimed {0} Armour: {1} --> {2}\n", ChangeNameArr[ArmourCounter], ArmourArray[ArmourCounter], ( Character. 5*int.Parse(HeadArmourBox.Text)));
+            ArmourPart
+                HeadArmour = new ArmourPart("Head", Character.kHeadBaseArmour, character.HeadArmourBonus, int.Parse(HeadArmourBox.Text)),
+                ChestArmour = new ArmourPart("Chest", Character.kChestBaseArmour, character.ChestArmourBonus, int.Parse(ChestArmourBox.Text)),
+                StomachArmour = new ArmourPart("Stomach", Character.kStomachBaseArmour, character.StomachArmourBonus, int.Parse(StomachArmourBox.Text)),
+                RightHandArmour = new ArmourPart("Right Hand", Character.kHandBaseArmour, character.RightHandArmourBonus, int.Parse(RHandArmourBox.Text)),
+                LeftHandArmour = new ArmourPart("Left Hand", Character.kHandBaseArmour, character.LeftHandArmourBonus, int.Parse(LHandArmourBox.Text)),
+                RightFootArmour = new ArmourPart("Right Foot", Character.kLegBaseArmour, character.RightFootArmourBonus, int.Parse(RLegArmourBox.Text)),
+                LeftFootArmour = new ArmourPart("Left Foot", Character.kLegBaseArmour, character.LeftFootArmourBonus, int.Parse(LLegArmourBox.Text));
 
+            l_Armour += Format("General Armour: {0} --> {1}", character.GetAC(), Globals.NewArmourBonuses.Sum());
+            foreach (ArmourPart armourPart in Globals.CurrentArmourParts)
+            {
+                if (armourPart.HasDifference())
+                {
+                    l_Armour += Format("{0} Armour Bonus: {1} --> {2}\n", armourPart.Part, armourPart.CurrentValue, armourPart.CurrentAimedValue);
+                    l_Armour += Format("Aimed {0} Armour: {1} --> {2}\n", armourPart.Part, armourPart.CurrentAimedValue, armourPart.NewAimedValue);
                 }
-            DialogResult l_Ans = MessageBox.Show(String.Format("Are you sure you want to change your Armour Class? to preview the changes:\n{0)"));
-            /* I don't need to do exercies to understand what is taught. At best I need them to remember it.
-             * And for that pourpose just rereading it ten miutes before a test is honestly equivalent.
-             * Also, regardless, it is litreally INSANE to expect anyone to do homework while at a SCHOOL activity
-             * which leaves them with roughly 2 hours a day at max to bth do homeworl=k an have their free time. 
-             */
+            }
+            
+            DialogResult l_Ans = MessageBox.Show(Format("Are you sure you want to change your Armour Class? to preview the changes:\n{0)", l_Armour), "Are You  Sure?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if(l_Ans == DialogResult.Yes)
+            {
+                character.HeadArmourBonus = HeadArmour.NewValue;
+                character.ChestArmourBonus = ChestArmour.NewValue;
+                character.StomachArmourBonus = StomachArmour.NewValue;
+                character.RightHandArmourBonus = RightHandArmour.NewValue;
+                character.LeftHandArmourBonus = LeftHandArmour.NewValue;
+                character.RightFootArmourBonus = RightFootArmour.NewValue;
+                character.LeftFootArmourBonus = LeftFootArmour.NewValue;
+                character.SetArmour();
+            }
         }
-        
+
+        private void LoadButton_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialog = new OpenFileDialog();
+
+        }
     }
 }

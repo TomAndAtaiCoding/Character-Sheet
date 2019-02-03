@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmourPart.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="EighteenStrengthWarior.cs">
       <SubType>Form</SubType>
