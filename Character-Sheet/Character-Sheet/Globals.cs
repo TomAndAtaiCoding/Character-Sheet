@@ -13,6 +13,7 @@ namespace Character_Sheet
         public static Character CurrentCharacter; //For refrencing the current character with forms prompted from the class methos themselves.
         public static ProgressBar HpPercenteBar;
         public static ArmourPart[] CurrentArmourParts = new ArmourPart[7];
-        public static int[] NewArmourBonuses = new int[7]; 
+        public static int[] NewArmourBonuses = new int[7];
+        public static int HPAmount;
     }
 }

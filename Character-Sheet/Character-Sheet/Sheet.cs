@@ -66,5 +66,12 @@ namespace Character_Sheet
             OpenFileDialog fileDialog = new OpenFileDialog();
 
         }
+
+        private void SetHPButton_Click(object sender, EventArgs e)
+        {
+            HPTab HPTab = new HPTab();
+            HPTab.Show();
+            this.Hide();
+        }
     }
 }
