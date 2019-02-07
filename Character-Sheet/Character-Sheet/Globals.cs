@@ -20,6 +20,5 @@ namespace Character_Sheet
         //--------Sheet----------
         public static ArmourPart[] CurrentArmourParts = new ArmourPart[7]; //For the SetACButton - the Armour parts just add themselves in construction, so you don't need to create another array. and initilize the values.
         public static int[] NewArmourBonuses = new int[7]; //Also for the SetACButton - same thing. ArmourParts add their NewValue value here in construction.
-
     }
 }

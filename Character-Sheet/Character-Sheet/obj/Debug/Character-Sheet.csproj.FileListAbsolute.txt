@@ -43,3 +43,6 @@ C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Char
 C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csproj.CoreCompileInputs.cache
 C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.exe
 C:\Users\ataya\Google Drive\Coding-Projects\Character-Sheet\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.pdb
+C:\Users\tom\Downloads\Character-Sheet-master (2)\Character-Sheet-master\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.csprojAssemblyReference.cache
+C:\Users\tom\Downloads\Character-Sheet-master (2)\Character-Sheet-master\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.exe
+C:\Users\tom\Downloads\Character-Sheet-master (2)\Character-Sheet-master\Character-Sheet\Character-Sheet\obj\Debug\Character-Sheet.pdb
