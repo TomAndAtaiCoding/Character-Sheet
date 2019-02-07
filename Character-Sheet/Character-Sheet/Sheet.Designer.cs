@@ -334,7 +334,7 @@
             this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.AttributeTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.AttributeTable.Size = new System.Drawing.Size(669, 279);
+            this.AttributeTable.Size = new System.Drawing.Size(662, 279);
             this.AttributeTable.TabIndex = 40;
             // 
             // TrapDetectionLabel
@@ -342,7 +342,7 @@
             this.TrapDetectionLabel.AutoSize = true;
             this.TrapDetectionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrapDetectionLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.TrapDetectionLabel.Location = new System.Drawing.Point(320, 216);
+            this.TrapDetectionLabel.Location = new System.Drawing.Point(317, 216);
             this.TrapDetectionLabel.Name = "TrapDetectionLabel";
             this.TrapDetectionLabel.Size = new System.Drawing.Size(92, 13);
             this.TrapDetectionLabel.TabIndex = 49;
@@ -353,7 +353,7 @@
             this.SnipingBonusLabel.AutoSize = true;
             this.SnipingBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SnipingBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.SnipingBonusLabel.Location = new System.Drawing.Point(190, 216);
+            this.SnipingBonusLabel.Location = new System.Drawing.Point(188, 216);
             this.SnipingBonusLabel.Name = "SnipingBonusLabel";
             this.SnipingBonusLabel.Size = new System.Drawing.Size(88, 13);
             this.SnipingBonusLabel.TabIndex = 49;
@@ -364,7 +364,7 @@
             this.LearnSpellLabel.AutoSize = true;
             this.LearnSpellLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LearnSpellLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.LearnSpellLabel.Location = new System.Drawing.Point(437, 162);
+            this.LearnSpellLabel.Location = new System.Drawing.Point(432, 162);
             this.LearnSpellLabel.Name = "LearnSpellLabel";
             this.LearnSpellLabel.Size = new System.Drawing.Size(92, 26);
             this.LearnSpellLabel.TabIndex = 49;
@@ -375,7 +375,7 @@
             this.ManaBousLabel.AutoSize = true;
             this.ManaBousLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ManaBousLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.ManaBousLabel.Location = new System.Drawing.Point(320, 162);
+            this.ManaBousLabel.Location = new System.Drawing.Point(317, 162);
             this.ManaBousLabel.Name = "ManaBousLabel";
             this.ManaBousLabel.Size = new System.Drawing.Size(77, 13);
             this.ManaBousLabel.TabIndex = 49;
@@ -386,7 +386,7 @@
             this.XpCostLabel.AutoSize = true;
             this.XpCostLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XpCostLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.XpCostLabel.Location = new System.Drawing.Point(190, 162);
+            this.XpCostLabel.Location = new System.Drawing.Point(188, 162);
             this.XpCostLabel.Name = "XpCostLabel";
             this.XpCostLabel.Size = new System.Drawing.Size(99, 13);
             this.XpCostLabel.TabIndex = 49;
@@ -396,7 +396,7 @@
             // 
             this.LearnSpellBox.BackColor = System.Drawing.Color.Cornsilk;
             this.LearnSpellBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LearnSpellBox.Location = new System.Drawing.Point(437, 192);
+            this.LearnSpellBox.Location = new System.Drawing.Point(432, 192);
             this.LearnSpellBox.Name = "LearnSpellBox";
             this.LearnSpellBox.ReadOnly = true;
             this.LearnSpellBox.Size = new System.Drawing.Size(64, 22);
@@ -406,7 +406,7 @@
             // 
             this.ManaBonusBox.BackColor = System.Drawing.Color.Cornsilk;
             this.ManaBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManaBonusBox.Location = new System.Drawing.Point(320, 192);
+            this.ManaBonusBox.Location = new System.Drawing.Point(317, 192);
             this.ManaBonusBox.Name = "ManaBonusBox";
             this.ManaBonusBox.ReadOnly = true;
             this.ManaBonusBox.Size = new System.Drawing.Size(64, 22);
@@ -416,7 +416,7 @@
             // 
             this.textBox26.BackColor = System.Drawing.Color.Cornsilk;
             this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(190, 192);
+            this.textBox26.Location = new System.Drawing.Point(188, 192);
             this.textBox26.Name = "textBox26";
             this.textBox26.ReadOnly = true;
             this.textBox26.Size = new System.Drawing.Size(64, 22);
@@ -426,7 +426,7 @@
             // 
             this.BarBendBox.BackColor = System.Drawing.Color.Cornsilk;
             this.BarBendBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BarBendBox.Location = new System.Drawing.Point(554, 30);
+            this.BarBendBox.Location = new System.Drawing.Point(547, 30);
             this.BarBendBox.Name = "BarBendBox";
             this.BarBendBox.ReadOnly = true;
             this.BarBendBox.Size = new System.Drawing.Size(64, 22);
@@ -436,7 +436,7 @@
             // 
             this.PersonalInitativeBox.BackColor = System.Drawing.Color.Cornsilk;
             this.PersonalInitativeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PersonalInitativeBox.Location = new System.Drawing.Point(190, 84);
+            this.PersonalInitativeBox.Location = new System.Drawing.Point(188, 84);
             this.PersonalInitativeBox.Name = "PersonalInitativeBox";
             this.PersonalInitativeBox.ReadOnly = true;
             this.PersonalInitativeBox.Size = new System.Drawing.Size(64, 22);
@@ -446,7 +446,7 @@
             // 
             this.ProjectileBonusBox.BackColor = System.Drawing.Color.Cornsilk;
             this.ProjectileBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProjectileBonusBox.Location = new System.Drawing.Point(320, 84);
+            this.ProjectileBonusBox.Location = new System.Drawing.Point(317, 84);
             this.ProjectileBonusBox.Name = "ProjectileBonusBox";
             this.ProjectileBonusBox.ReadOnly = true;
             this.ProjectileBonusBox.Size = new System.Drawing.Size(64, 22);
@@ -456,7 +456,7 @@
             // 
             this.AcDexBonusBox.BackColor = System.Drawing.Color.Cornsilk;
             this.AcDexBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AcDexBonusBox.Location = new System.Drawing.Point(437, 84);
+            this.AcDexBonusBox.Location = new System.Drawing.Point(432, 84);
             this.AcDexBonusBox.Name = "AcDexBonusBox";
             this.AcDexBonusBox.ReadOnly = true;
             this.AcDexBonusBox.Size = new System.Drawing.Size(64, 22);
@@ -466,7 +466,7 @@
             // 
             this.StrengthAttackBonusBox.BackColor = System.Drawing.Color.Cornsilk;
             this.StrengthAttackBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrengthAttackBonusBox.Location = new System.Drawing.Point(190, 30);
+            this.StrengthAttackBonusBox.Location = new System.Drawing.Point(188, 30);
             this.StrengthAttackBonusBox.Name = "StrengthAttackBonusBox";
             this.StrengthAttackBonusBox.ReadOnly = true;
             this.StrengthAttackBonusBox.Size = new System.Drawing.Size(64, 22);
@@ -476,7 +476,7 @@
             // 
             this.OpenDoorBox.BackColor = System.Drawing.Color.Cornsilk;
             this.OpenDoorBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OpenDoorBox.Location = new System.Drawing.Point(437, 30);
+            this.OpenDoorBox.Location = new System.Drawing.Point(432, 30);
             this.OpenDoorBox.Name = "OpenDoorBox";
             this.OpenDoorBox.ReadOnly = true;
             this.OpenDoorBox.Size = new System.Drawing.Size(64, 22);
@@ -487,7 +487,7 @@
             this.DamageBonusLabel.AutoSize = true;
             this.DamageBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DamageBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.DamageBonusLabel.Location = new System.Drawing.Point(320, 0);
+            this.DamageBonusLabel.Location = new System.Drawing.Point(317, 0);
             this.DamageBonusLabel.Name = "DamageBonusLabel";
             this.DamageBonusLabel.Size = new System.Drawing.Size(92, 13);
             this.DamageBonusLabel.TabIndex = 39;
@@ -497,7 +497,7 @@
             // 
             this.StrnegthDamageBox.BackColor = System.Drawing.Color.Cornsilk;
             this.StrnegthDamageBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrnegthDamageBox.Location = new System.Drawing.Point(320, 30);
+            this.StrnegthDamageBox.Location = new System.Drawing.Point(317, 30);
             this.StrnegthDamageBox.Name = "StrnegthDamageBox";
             this.StrnegthDamageBox.ReadOnly = true;
             this.StrnegthDamageBox.Size = new System.Drawing.Size(64, 22);
@@ -508,7 +508,7 @@
             this.AttackBonusLabel.AutoSize = true;
             this.AttackBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AttackBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.AttackBonusLabel.Location = new System.Drawing.Point(190, 0);
+            this.AttackBonusLabel.Location = new System.Drawing.Point(188, 0);
             this.AttackBonusLabel.Name = "AttackBonusLabel";
             this.AttackBonusLabel.Size = new System.Drawing.Size(83, 13);
             this.AttackBonusLabel.TabIndex = 38;
@@ -519,7 +519,7 @@
             this.OpenDoorLabel.AutoSize = true;
             this.OpenDoorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OpenDoorLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.OpenDoorLabel.Location = new System.Drawing.Point(437, 0);
+            this.OpenDoorLabel.Location = new System.Drawing.Point(432, 0);
             this.OpenDoorLabel.Name = "OpenDoorLabel";
             this.OpenDoorLabel.Size = new System.Drawing.Size(85, 13);
             this.OpenDoorLabel.TabIndex = 40;
@@ -530,7 +530,7 @@
             this.BarBendLabel.AutoSize = true;
             this.BarBendLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BarBendLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.BarBendLabel.Location = new System.Drawing.Point(554, 0);
+            this.BarBendLabel.Location = new System.Drawing.Point(547, 0);
             this.BarBendLabel.Name = "BarBendLabel";
             this.BarBendLabel.Size = new System.Drawing.Size(109, 26);
             this.BarBendLabel.TabIndex = 41;
@@ -540,7 +540,7 @@
             // 
             this.AmbushDetectionBox.BackColor = System.Drawing.Color.Cornsilk;
             this.AmbushDetectionBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AmbushDetectionBox.Location = new System.Drawing.Point(320, 246);
+            this.AmbushDetectionBox.Location = new System.Drawing.Point(317, 246);
             this.AmbushDetectionBox.Name = "AmbushDetectionBox";
             this.AmbushDetectionBox.ReadOnly = true;
             this.AmbushDetectionBox.Size = new System.Drawing.Size(64, 22);
@@ -551,7 +551,7 @@
             this.PersonalInitativeLabel.AutoSize = true;
             this.PersonalInitativeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonalInitativeLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.PersonalInitativeLabel.Location = new System.Drawing.Point(190, 54);
+            this.PersonalInitativeLabel.Location = new System.Drawing.Point(188, 54);
             this.PersonalInitativeLabel.Name = "PersonalInitativeLabel";
             this.PersonalInitativeLabel.Size = new System.Drawing.Size(109, 13);
             this.PersonalInitativeLabel.TabIndex = 42;
@@ -562,7 +562,7 @@
             this.ProjectileBonusLabel.AutoSize = true;
             this.ProjectileBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProjectileBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.ProjectileBonusLabel.Location = new System.Drawing.Point(320, 54);
+            this.ProjectileBonusLabel.Location = new System.Drawing.Point(317, 54);
             this.ProjectileBonusLabel.Name = "ProjectileBonusLabel";
             this.ProjectileBonusLabel.Size = new System.Drawing.Size(99, 13);
             this.ProjectileBonusLabel.TabIndex = 43;
@@ -573,7 +573,7 @@
             this.AcBonusLabel.AutoSize = true;
             this.AcBonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AcBonusLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.AcBonusLabel.Location = new System.Drawing.Point(437, 54);
+            this.AcBonusLabel.Location = new System.Drawing.Point(432, 54);
             this.AcBonusLabel.Name = "AcBonusLabel";
             this.AcBonusLabel.Size = new System.Drawing.Size(70, 13);
             this.AcBonusLabel.TabIndex = 44;
@@ -583,7 +583,7 @@
             // 
             this.SnipingBonusBox.BackColor = System.Drawing.Color.Cornsilk;
             this.SnipingBonusBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SnipingBonusBox.Location = new System.Drawing.Point(190, 246);
+            this.SnipingBonusBox.Location = new System.Drawing.Point(188, 246);
             this.SnipingBonusBox.Name = "SnipingBonusBox";
             this.SnipingBonusBox.ReadOnly = true;
             this.SnipingBonusBox.Size = new System.Drawing.Size(64, 22);
@@ -694,9 +694,9 @@
             this.AmbushDetectionLabel.AutoSize = true;
             this.AmbushDetectionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmbushDetectionLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.AmbushDetectionLabel.Location = new System.Drawing.Point(437, 216);
+            this.AmbushDetectionLabel.Location = new System.Drawing.Point(432, 216);
             this.AmbushDetectionLabel.Name = "AmbushDetectionLabel";
-            this.AmbushDetectionLabel.Size = new System.Drawing.Size(110, 13);
+            this.AmbushDetectionLabel.Size = new System.Drawing.Size(62, 26);
             this.AmbushDetectionLabel.TabIndex = 49;
             this.AmbushDetectionLabel.Text = "Ambush Detection";
             // 
@@ -705,7 +705,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label7.Location = new System.Drawing.Point(554, 54);
+            this.label7.Location = new System.Drawing.Point(547, 54);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 26);
             this.label7.TabIndex = 56;
@@ -715,7 +715,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.Cornsilk;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(554, 84);
+            this.textBox2.Location = new System.Drawing.Point(547, 84);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(64, 22);
@@ -725,7 +725,7 @@
             // 
             this.AmbushdetectionnBox.BackColor = System.Drawing.Color.Cornsilk;
             this.AmbushdetectionnBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AmbushdetectionnBox.Location = new System.Drawing.Point(437, 246);
+            this.AmbushdetectionnBox.Location = new System.Drawing.Point(432, 246);
             this.AmbushdetectionnBox.Name = "AmbushdetectionnBox";
             this.AmbushdetectionnBox.ReadOnly = true;
             this.AmbushdetectionnBox.Size = new System.Drawing.Size(64, 22);
@@ -745,7 +745,7 @@
             // 
             this.SystemShockBox.BackColor = System.Drawing.Color.Cornsilk;
             this.SystemShockBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SystemShockBox.Location = new System.Drawing.Point(190, 138);
+            this.SystemShockBox.Location = new System.Drawing.Point(188, 138);
             this.SystemShockBox.Name = "SystemShockBox";
             this.SystemShockBox.ReadOnly = true;
             this.SystemShockBox.Size = new System.Drawing.Size(64, 22);
@@ -756,7 +756,7 @@
             this.SystemShockLabel.AutoSize = true;
             this.SystemShockLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SystemShockLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.SystemShockLabel.Location = new System.Drawing.Point(190, 108);
+            this.SystemShockLabel.Location = new System.Drawing.Point(188, 108);
             this.SystemShockLabel.Name = "SystemShockLabel";
             this.SystemShockLabel.Size = new System.Drawing.Size(87, 13);
             this.SystemShockLabel.TabIndex = 47;
@@ -767,7 +767,7 @@
             this.ResurectionChanceLabel.AutoSize = true;
             this.ResurectionChanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResurectionChanceLabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.ResurectionChanceLabel.Location = new System.Drawing.Point(320, 108);
+            this.ResurectionChanceLabel.Location = new System.Drawing.Point(317, 108);
             this.ResurectionChanceLabel.Name = "ResurectionChanceLabel";
             this.ResurectionChanceLabel.Size = new System.Drawing.Size(83, 26);
             this.ResurectionChanceLabel.TabIndex = 49;
@@ -777,7 +777,7 @@
             // 
             this.ResChanceBox.BackColor = System.Drawing.Color.Cornsilk;
             this.ResChanceBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResChanceBox.Location = new System.Drawing.Point(320, 138);
+            this.ResChanceBox.Location = new System.Drawing.Point(317, 138);
             this.ResChanceBox.Name = "ResChanceBox";
             this.ResChanceBox.ReadOnly = true;
             this.ResChanceBox.Size = new System.Drawing.Size(64, 22);
@@ -817,9 +817,10 @@
             this.HPPercentBar.Location = new System.Drawing.Point(11, 91);
             this.HPPercentBar.Name = "HPPercentBar";
             this.HPPercentBar.Size = new System.Drawing.Size(166, 16);
+            this.HPPercentBar.Step = 1;
             this.HPPercentBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.HPPercentBar.TabIndex = 9;
-            this.HPPercentBar.Value = 100;
+            this.HPPercentBar.Value = 99;
             // 
             // CurHPBox
             // 
