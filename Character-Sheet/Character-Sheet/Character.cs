@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Convert;
 using static System.Math;
-using static Character_Sheet.ArmourPart.BaseValues;
 
 namespace Character_Sheet
 {
@@ -17,7 +16,6 @@ namespace Character_Sheet
     public class Character
     {
         //Basic Details:
-
         public string name;
         public string PlayerName;
         public int age;
@@ -30,6 +28,14 @@ namespace Character_Sheet
 
       //--------------------AC--------------------
 
+        //----------Base Armours----------
+        public const int
+            kBaseArmour = 50,
+            kHeadBaseArmour = 130,
+            kChestBaseArmour = 65,
+            kStomachBaseArmour = 65,
+            kHandBaseArmour = 80,
+            kLegBaseArmour = 70;
 
         //----------Armour Bonus----------
         public int
@@ -689,7 +695,10 @@ namespace Character_Sheet
                 }
             }
         }
-        private void CalculateTrapDetection() { }
+        private void CalculateTrapDetection()
+        {
+
+        }
         private void CalculateAmbushDetection() { }
 
         public Dictionary<string, bool> Potentials = new Dictionary<string, bool>()
